@@ -1,0 +1,30 @@
+#import('text', 'com.nomagic.reportwizard.tools.TextTool')
+#set($packages = $array.createArray())
+#set($void = $array.addCollection($packages, $Package))
+#set($void = $array.addCollection($packages, $SmartPackage))
+#foreach ($package in $sorter.sort($packages, "qualifiedName"))
+#set($qualifiedName = $package.qualifiedName)
+#set ($classList = $array.createArray())
+#set ($interfaceList = $array.createArray())
+#set ($enumerationList = $array.createArray())
+#foreach ($element in $report.getOwnedElementsIncludingAdditional($package, true))
+#if ($element.elementType == "class")
+#set ($void = $classList.add($element))
+#elseif ($element.elementType == "interface")
+#set ($void = $interfaceList.add($element))
+#elseif ($element.elementType == "enumeration")
+#set ($void = $enumerationList.add($element))
+#end
+#end
+#foreach ($class in $sorter.sort($classList))
+#[[#]]# <a name="$class.elementID"></a>$class.name
+#set ($docLink = $class.documentation)
+#foreach ($termToMatch in $sorter.sort($classList))
+#if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
+#set ($docLink = 
+$docLink.replaceAll("(?i)\b$termToMatch.name\b","[$termToMatch.name]($termToMatch.elementID)"))
+#end
+#end
+$docLink
+#end 
+#end
