@@ -22,7 +22,7 @@
 #foreach ($termToMatch in $sorter.sort($classList))
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
 #set ($docLink = 
-$docLink.replaceAll("(?i)\b$termToMatch.name\b","[$termToMatch.name]($termToMatch.elementID)"))
+$docLink.replaceAll("(?i) (\b$termToMatch.name\b) "," [$1](#$termToMatch.elementID) "))
 #end
 #end
 $docLink
