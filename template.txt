@@ -1,4 +1,5 @@
 #import('text', 'com.nomagic.reportwizard.tools.TextTool')
+#import('hrsort', 'com.hiltonroscoe.mdreportext.Sorter')
 #set($packages = $array.createArray())
 #set($void = $array.addCollection($packages, $Package))
 #set($void = $array.addCollection($packages, $SmartPackage))
@@ -19,10 +20,10 @@
 #foreach ($class in $sorter.sort($classList))
 #[[#]]# <a name="$class.elementID"></a>$class.name
 #set ($docLink = $class.documentation)
-#foreach ($termToMatch in $sorter.sort($classList))
+#foreach ($termToMatch in $hrsort.sortByLength($classList))
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
 #set ($docLink = 
-$docLink.replaceAll("(?i) (\b$termToMatch.name\b) "," [$1](#$termToMatch.elementID) "))
+$docLink.replaceAll("(?i) (\b$termToMatch.name\b)([ .,;!])"," [$1](#$termToMatch.elementID)$2"))
 #end
 #end
 $docLink
