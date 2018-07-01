@@ -17,13 +17,14 @@
 #set ($void = $enumerationList.add($element))
 #end
 #end
+# Glossary (PoC)
 #foreach ($class in $sorter.sort($classList))
-#[[#]]# <a name="$class.elementID"></a>$class.name
+#[[##]]# <a name="$class.name.replaceAll("\s+","")"></a>$class.name
 #set ($docLink = $class.documentation)
 #foreach ($termToMatch in $hrsort.sortByLength($classList))
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
 #set ($docLink = 
-$docLink.replaceAll("(?i) (\b$termToMatch.name\b)([ .,;!])"," [$1](#$termToMatch.elementID)$2"))
+$docLink.replaceAll("(?i) (\b$termToMatch.name\b)([ .,;!])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$2"))
 #end
 #end
 $docLink
