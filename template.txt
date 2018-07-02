@@ -17,7 +17,7 @@
 #set ($void = $enumerationList.add($element))
 #end
 #end
-# Glossary (PoC)
+# $package.name Glossary
 #foreach ($class in $sorter.sort($classList))
 #[[##]]# <a name="$class.name.replaceAll("\s+","")"></a>$class.name
 #set ($docLink = $class.documentation)

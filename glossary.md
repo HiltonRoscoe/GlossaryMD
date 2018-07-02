@@ -1,5 +1,5 @@
-# Glossary (PoC)
-# Glossary (PoC)
+# Concept Modeling Support Glossary
+# Elections Glossary
 ## <a name="StateGovernment"></a> State Government
 
 ## <a name="AbilitySituation"></a>Ability Situation
@@ -608,8 +608,8 @@ Voting style, [option](#Option), or feature such as in-person voting, [absentee 
 
 ## <a name="Write-InOption"></a>Write-In Option
 A type of [contest option](#ContestOption) that allows a [voter](#Voter) to specify a [candidate](#Candidate), usually not already listed under the same [contest](#Contest). Depending on [jurisdiction](#Jurisdiction) rules, only certain names will be considered as valid write-ins. 
-# Glossary (PoC)
-# Glossary (PoC)
+# Foundations Glossary
+# HumanFactors Glossary
 ## <a name="AlternativeFormat"></a>Alternative Format
 The ballot or accompanying information is said to be in an [alternative format](#AlternativeFormat) if it is in a representation other than the standard ballot language and format. Examples include, but are not limited to languages other than English, Braille, ASCII text, large print, recorded audio. (VVSG 1.1)
 ## <a name="AudioFormat"></a>Audio Format
@@ -620,11 +620,11 @@ The way the voting system communicates ballot choices and other information. (Hu
 Visual [display format](#DisplayFormat) options for displaying ballot choices and other information with the addition of personal choices such as text size and color contrast.
 ## <a name="VisualFormat"></a>Visual Format
 A [display format](#DisplayFormat) in which ballot choices and other information are displayed on screen or paper for perception using sight.
-# Glossary (PoC)
-# Glossary (PoC)
+# Imported Ontologies Glossary
+# AnnotationVocabulary Glossary
 ## <a name="AnnotationPropertyHolder_imported"></a>Annotation Property Holder_imported
 
-# Glossary (PoC)
+# core Glossary
 ## <a name="AnnotationPropertyHolder_imported"></a>Annotation Property Holder_imported
 
 ## <a name="Collection"></a>Collection
@@ -639,26 +639,26 @@ An [ordered collection](#OrderedCollection) of concepts, where both the grouping
 
 ## <a name="Thing"></a>Thing
 
-# Glossary (PoC)
-# Glossary (PoC)
+# Ontologies Glossary
+# owl Glossary
 ## <a name="Thing"></a>Thing
 
-# Glossary (PoC)
+# rdf-schema Glossary
 ## <a name="AnnotationPropertyHolder"></a>Annotation Property Holder
 
-# Glossary (PoC)
+# rdf-syntax-ns Glossary
 ## <a name="List"></a>List
 
-# Glossary (PoC)
+# terms Glossary
 ## <a name="AnnotationPropertyHolder"></a>Annotation Property Holder
 
 ## <a name="AnnotationPropertyHolder_imported"></a>Annotation Property Holder_imported
 
-# Glossary (PoC)
-# Glossary (PoC)
+# XMLSchema Glossary
+# Mereological Glossary
 ## <a name="part"></a>part
 
-# Glossary (PoC)
+# Sowa Glossary
 ## <a name="Context"></a>Context
 
 ## <a name="Continuant"></a>Continuant
@@ -755,7 +755,7 @@ A form (IA) that has the structure of an [occurrent](#Occurrent) (O). A [script]
 </html>
 ## <a name="Situation"></a>Situation
 A [nexus](#Nexus) (MP) considered as an [occurrent](#Occurrent) (O). A [situation](#Situation) mediates the participants of some [process](#Process), whose stages may involve different participants at different times. 
-# Glossary (PoC)
+# VVSG Glossary
 ## <a name="BallotGeneration"></a>Ballot Generation
 
 ## <a name="BallotPresentation"></a>Ballot Presentation
