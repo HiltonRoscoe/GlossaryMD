@@ -28,5 +28,12 @@ $docLink.replaceAll("(?i) (\b$termToMatch.name\b)([ .,;!])"," [$1](#$termToMatch
 #end
 #end
 $docLink
+#set ($communities = $report.getStereotypeProperty($class, "glossaryEntry", "communities"))
+#if($communities)
+
+#foreach ($community in $communities)
+\#[[#]]#$community
+#end
+#end
 #end 
 #end
