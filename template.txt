@@ -22,9 +22,12 @@
 #[[##]]# <a name="$class.name.replaceAll("\s+","")"></a>$class.name
 #set ($docLink = $class.documentation)
 #foreach ($termToMatch in $hrsort.sortByLength($classList))
+#set ($skipWords = $report.getStereotypeProperty($class, "glossaryEntry", "ignoreEntries"))
+#if(!$list.contains($skipWords, $termToMatch.name)) 
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
 #set ($docLink = 
 $docLink.replaceAll("(?i) (\b$termToMatch.name\b)([ .,;!])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$2"))
+#end
 #end
 #end
 $docLink
