@@ -7,14 +7,14 @@ Voting that can occur unsupervised at a location chosen by the [voter](#voter) e
 
 ## <a name="acceptancetesting"></a>acceptance testing
 Examination of a [voting system](#votingsystem) and its components by the purchasing [election](#election) authority to validate:
- · the performance of delivered devices to ensure they meet procurement requirements, and
- · that the delivered system is, in fact, the certified system purchased.
+ - the performance of delivered devices to ensure they meet procurement requirements, and
+ - that the delivered system is, in fact, the certified system purchased.
  This usually happens in a simulated-use environment.
 
 ## <a name="accesscontrol"></a>access control
 The process of granting or denying specific requests to:
- · obtain and use information and related information processing services; and
- · enter specific physical facilities (such as, federal buildings, military establishments, border crossing entrances).
+ - obtain and use information and related information processing services; and
+ - enter specific physical facilities (such as, federal buildings, military establishments, border crossing entrances).
 
 ## <a name="accesscontrols"></a>access controls
 Methods to restrict or control access to specific data, procedures, and other resources.
@@ -28,8 +28,8 @@ Formal recognition that a laboratory is competent to carry out specific tests or
 ## <a name="accreditationbody"></a>accreditation body
 1. Authoritative body that performs [accreditation](#accreditation).
  2. Independent organization responsible for
- · assessing the performance of other organizations against a recognized [standard](#standard), and
- · formally confirming the status of those that meet the [standard](#standard).
+ - assessing the performance of other organizations against a recognized [standard](#standard), and
+ - formally confirming the status of those that meet the [standard](#standard).
 
 ## <a name="activationdevice"></a>activation device
 Programmed [device](#device) that creates credentials necessary to initiate a [voting session](#votingsession) using a specific [ballot style](#ballotstyle). Examples include electronic poll books and card activators that encode a [token](#token) with credential information necessary to determine the appropriate [ballot style](#ballotstyle) for the [voter](#voter).
@@ -39,11 +39,11 @@ Span of time during which a [vote-capture device](#vote-capturedevice) either is
 
 ## <a name="adjudication"></a>adjudication
 Process of resolving flagged [cast](#cast) ballots to reflect [voter intent](#voterintent). Common reasons for flagging include:
- · write-ins,
- · overvotes,
- · marginal marks,
- · having no contests marked on the entire [ballot](#ballot), or
- · the [ballot](#ballot) being unreadable by a scanner.
+ - write-ins,
+ - overvotes,
+ - marginal marks,
+ - having no contests marked on the entire [ballot](#ballot), or
+ - the [ballot](#ballot) being unreadable by a scanner.
 
 ## <a name="adjudication-requiredballot"></a>adjudication-required ballot
 A [ballot](#ballot) that contains [contest](#contest) selections that require [adjudication](#adjudication).
@@ -73,7 +73,7 @@ Media that designed to preserve content for an extended period of time with mini
 A [device](#device) that improves or maintains the capabilities of people with disabilities (such as no vision, low vision, mobility, or cognitive). These devices include headsets, keypads, software, sip-and-puff, and voice synthesizers.
 
 ## <a name="asymmetriccryptography"></a>asymmetric cryptography
-Encryption system that uses a public and [private key](#privatekey) pair for cryptographic operation. The [private key](#privatekey) is generally stored in a user’s [digital certificate](#digitalcertificate) and used typically to encrypt or digitally sign data. The [public key](#publickey) is used typically to decrypt the data or verify its digital signatures. The keys could be used interchangeably as needed, that is, a [public key](#publickey) can be used to encrypt data and the [private key](#privatekey) can be used to decrypt the data.
+Encryption system that uses a public and [private key](#privatekey) pair for cryptographic operation. The [private key](#privatekey) is generally stored in a userâ€™s [digital certificate](#digitalcertificate) and used typically to encrypt or digitally sign data. The [public key](#publickey) is used typically to decrypt the data or verify its digital signatures. The keys could be used interchangeably as needed, that is, a [public key](#publickey) can be used to encrypt data and the [private key](#privatekey) can be used to decrypt the data.
 
 ## <a name="audioformat"></a>audio format
 A display format in which [ballot](#ballot) options and other information are communicated through sound and speech.
@@ -84,7 +84,7 @@ A display format in which [ballot](#ballot) options and other information are co
  3. A review of a system and its controls to determine its operational status and the accuracy of its outputs.
 
 ## <a name="auditdevice"></a>audit device
-Voting [device](#device) dedicated exclusively to verifying or [independently](#independently) assessing the voting system’s performance.
+Voting [device](#device) dedicated exclusively to verifying or [independently](#independently) assessing the voting systemâ€™s performance.
 
 ## <a name="audittrail"></a>audit trail
 Recorded information about activities that occurred on the voting equipment to verify or reconstruct the steps followed without compromising the [ballot](#ballot) or [voter](#voter) secrecy. [Audit](#audit) trails may include event logs, paper records, error messages, and reports.
@@ -97,8 +97,8 @@ Presentation of the [contest](#contest) options for a particular [voter](#voter)
 
 ## <a name="ballotcountinglogic"></a>ballot counting logic
 The software logic that
- · defines the combinations of [voter](#voter) selections that are valid and invalid on a given [ballot](#ballot) and,
- · determines how the [vote](#vote) selections are totaled in a given [election](#election).
+ - defines the combinations of [voter](#voter) selections that are valid and invalid on a given [ballot](#ballot) and,
+ - determines how the [vote](#vote) selections are totaled in a given [election](#election).
 
 ## <a name="ballotdata"></a>ballot data
 A list of contests and associated options that may appear on a [ballot](#ballot) for a particular [election](#election).
@@ -114,9 +114,9 @@ Information provided to the [voter](#voter) that describes the procedure for mar
 
 ## <a name="ballotmarkingdevice"></a>ballot marking device
 A [voting system](#votingsystem) that:
- · permits [ballot](#ballot) options to be reviewed on an electronic interface,
- · produces a human-readable [paper ballot](#paperballot), and
- · does not make any other lasting [record](#record) of the voter's selections.
+ - permits [ballot](#ballot) options to be reviewed on an electronic interface,
+ - produces a human-readable [paper ballot](#paperballot), and
+ - does not make any other lasting [record](#record) of the voter's selections.
 
 ## <a name="ballotmarkingtargetarea"></a>ballot marking target area
 An area defined on a [ballot](#ballot) that voters use to indicate their selections when marking their ballots.
@@ -136,6 +136,12 @@ A process that produces a [paper ballot](#paperballot) of the required [ballot s
  · a [device](#device) driving the printer that has all the data needed to print each [ballot style](#ballotstyle) and allows selection of the needed style.
  Note: “ballot on demand” is a registered trademark of ES&S.
 
+## <a name="ballotondemandÂ®"></a>ballot on demandÂ®
+A process that produces a [paper ballot](#paperballot) of the required [ballot style](#ballotstyle) that meets a specific voterâ€™s needs. The use of this process requires:
+ - a system with a printer that can create a tabulatable [paper ballot](#paperballot); and
+ - a [device](#device) driving the printer that has all the data needed to print each [ballot style](#ballotstyle) and allows selection of the needed style.
+ Note: â€œballot on demandâ€� is a registered trademark of ES&S.
+
 ## <a name="ballotproduction"></a>ballot production
 Process of generating ballots for presentation to voters, for example, printing paper ballots or configuring the [ballot](#ballot) presentation for an electronic display.
 
@@ -150,21 +156,21 @@ An optical, machine-readable representation of data as a sequence of bars and sp
 
 ## <a name="barcodereader"></a>barcode reader
 Device used to scan barcodes and convert the encoded information into a usable format.
- [Barcode](#barcode) readers are used to scan codes on a variety of [election](#election) materials including ballots, driver’s licenses, [voter](#voter) ID cards, [voter](#voter) information packets, envelopes, and other [election](#election) documents.
+ [Barcode](#barcode) readers are used to scan codes on a variety of [election](#election) materials including ballots, driverâ€™s licenses, [voter](#voter) ID cards, [voter](#voter) information packets, envelopes, and other [election](#election) documents.
 
 ## <a name="batch"></a>batch
 A collection of paper ballots gathered as a group for tabulation or for auditing.
 
 ## <a name="batchfedscanner"></a>batch fed scanner
 A [ballot](#ballot) processing [device](#device) that:
- · accepts stacks of hand-marked or BMD-produced paper ballots and automatically processes them until the stack is empty;
- · is usually used at an [election](#election) authority’s central location;
- · is mostly commonly used to process absentee or mail ballots;
- · usually has input and output hoppers for ballots;
- · scans a [ballot](#ballot) and rejects it if either unreadable or un-processable;
- · detects, interprets, and validates [contest](#contest) selections;
- · detects and sorts (either digitally or physically) ballots that are unreadable or un-processable, or that contain undeterminable selections, marking exceptions, or write-ins; and
- · tabulates and reports [contest](#contest) results as required.
+ - accepts stacks of hand-marked or BMD-produced paper ballots and automatically processes them until the stack is empty;
+ - is usually used at an [election](#election) authorityâ€™s central location;
+ - is mostly commonly used to process absentee or mail ballots;
+ - usually has input and output hoppers for ballots;
+ - scans a [ballot](#ballot) and rejects it if either unreadable or un-processable;
+ - detects, interprets, and validates [contest](#contest) selections;
+ - detects and sorts (either digitally or physically) ballots that are unreadable or un-processable, or that contain undeterminable selections, marking exceptions, or write-ins; and
+ - tabulates and reports [contest](#contest) results as required.
  This unit was previously referred to as central count optical scanner or CCOS.
 
 ## <a name="benchmark"></a>benchmark
@@ -222,7 +228,7 @@ Format to be used for [usability](#usability) [test](#test) reporting.
  CIF is the format required for [usability](#usability) [test](#test) reporting.
 
 ## <a name="comparisonaudit"></a>comparison audit
-Audit in which the [voting system](#votingsystem) count of a [batch](#batch) (or interpretation of a ballot) is compared with the audit’s count or interpretation of the same [batch](#batch) or [ballot](#ballot).
+Audit in which the [voting system](#votingsystem) count of a [batch](#batch) (or interpretation of a ballot) is compared with the auditâ€™s count or interpretation of the same [batch](#batch) or [ballot](#ballot).
 
 ## <a name="component"></a>component
 Element within a larger [voting system](#votingsystem).
@@ -246,14 +252,14 @@ A single decision or set of associated decisions being put before the voters (fo
 A type of voteable choice that appears under a [contest](#contest).
 
 ## <a name="contestoptionposition"></a>contest option position
-A specified area on a [ballot](#ballot) where a voter’s selection in a particular [contest](#contest) can be indicated.
+A specified area on a [ballot](#ballot) where a voterâ€™s selection in a particular [contest](#contest) can be indicated.
 
 ## <a name="contestoptionvote"></a>contest option vote
 Vote that will be counted for a particular [contest option](#contestoption).
  This term was previously referred to as [valid vote](#validvote).
 
 ## <a name="contestselection"></a>contest selection
-A selection marked on the [ballot](#ballot) by a [voter](#voter) with respect to a specific single [contest](#contest) (for example, a [candidate](#candidate), the value “Yes” or “Approve”).
+A selection marked on the [ballot](#ballot) by a [voter](#voter) with respect to a specific single [contest](#contest) (for example, a [candidate](#candidate), the value â€œYesâ€� or â€œApproveâ€�).
 
 ## <a name="corelogic"></a>core logic
 Subset of application logic that is responsible for [vote](#vote) recording and tabulation.
@@ -292,22 +298,22 @@ Revocation of national or state certification of a [voting system](#votingsystem
 Cryptographic process of transforming encrypted data into its original form (prior to encryption).
 
 ## <a name="defense-in-depth"></a>defense-in-depth
-Also called the “Castle” approach. Multiple levels of logical and physical security measures that deny a single point of security [failure](#failure) in a system. Examples include the use of passwords, [encryption](#encryption), lock-and-key access, security seals, and logs.
+Also called the â€œCastleâ€� approach. Multiple levels of logical and physical security measures that deny a single point of security [failure](#failure) in a system. Examples include the use of passwords, [encryption](#encryption), lock-and-key access, security seals, and logs.
 
 ## <a name="device"></a>device
 Physical apparatus and any supporting supplies, materials, and logic that together form a functional unit that performs assigned tasks as an integrated whole.
 
 ## <a name="digitalcertificate"></a>digital certificate
-A data set used to identify the holder of the certification and to verify, using a PKI, the authenticity of the certificate. It typically includes the holder’s [private key](#privatekey) and is used for cryptographic operations such as digitally signing or encrypting data.
+A data set used to identify the holder of the certification and to verify, using a PKI, the authenticity of the certificate. It typically includes the holderâ€™s [private key](#privatekey) and is used for cryptographic operations such as digitally signing or encrypting data.
 
 ## <a name="digitalsignature"></a>digital signature
 A cryptographic operation where the [private key](#privatekey) is used to digitally sign an electronic document and the [public key](#publickey) is used to verify the signature. Digital signatures provide data [authentication](#authentication) and integrity protection.
 
 ## <a name="directrecordingelectronicvotingmachine"></a>direct recording electronic voting machine
 A [voting device](#votingdevice) that allows:
- · electronic presentation of a [ballot](#ballot),
- · electronic selection of valid [voter](#voter) choices, and
- · electronic storage of these selections as individual records.
+ - electronic presentation of a [ballot](#ballot),
+ - electronic selection of valid [voter](#voter) choices, and
+ - electronic storage of these selections as individual records.
  It also provides a summary of these [vote](#vote) selections.
 
 ## <a name="dynamicpassword"></a>dynamic password
@@ -324,11 +330,11 @@ Physical location where individuals may [cast](#cast) a [ballot](#ballot) before
 
 ## <a name="election"></a>election
 A formal process that allows qualified voters to:
- · select candidates to fill seats in one or more public offices and
- · to accept or reject one or more proposed [ballot](#ballot) measures.
+ - select candidates to fill seats in one or more public offices and
+ - to accept or reject one or more proposed [ballot](#ballot) measures.
 
 ## <a name="electioncertification"></a>election certification
-The act of confirming the final official results of a jurisdiction’s [election](#election) by the [election](#election) authority. This event occurs after results from valid ballots are tallied from all sources (election day, absentee, early [vote](#vote), provisional, etc.) and results are validated and approved by those legally responsible.
+The act of confirming the final official results of a jurisdictionâ€™s [election](#election) by the [election](#election) authority. This event occurs after results from valid ballots are tallied from all sources (election day, absentee, early [vote](#vote), provisional, etc.) and results are validated and approved by those legally responsible.
 
 ## <a name="electionday"></a>election day
 The last day on which voters may [cast](#cast) a [ballot](#ballot).
@@ -348,12 +354,12 @@ A geographical area to which a practical authority has been granted to administe
 
 ## <a name="electionmanagementsystem"></a>election management system
 Set of processing functions and databases within a [voting system](#votingsystem) typically used to:
- · develop and maintain [election definition](#electiondefinition) data,
- · perform [ballot](#ballot) layout functions,
- · create [ballot](#ballot) presentation templates for [ballot](#ballot) printers or devices used by voters for [ballot](#ballot) markup,
- · count votes,
- · consolidate and [report](#report) results, and
- · maintain [audit](#audit) trails.
+ - develop and maintain [election definition](#electiondefinition) data,
+ - perform [ballot](#ballot) layout functions,
+ - create [ballot](#ballot) presentation templates for [ballot](#ballot) printers or devices used by voters for [ballot](#ballot) markup,
+ - count votes,
+ - consolidate and [report](#report) results, and
+ - maintain [audit](#audit) trails.
 
 ## <a name="electionofficial"></a>election official
 Any person who is involved with administering or conducting an [election](#election), including government personnel and [election day](#electionday) workers. This includes any county clerk and recorder, [election](#election) judge, member of a canvassing board, central [election official](#electionofficial), [election day](#electionday) worker, member of a board of county commissioners, member or secretary of a board of directors authorized to conduct public elections, representative of a governing body, or other person engaged in the performance of [election](#election) duties as required by the [election](#election) code.
@@ -363,10 +369,10 @@ Process by which [election](#election) officials or their designees use [voting 
 
 ## <a name="ElectionResultsReportingSystem"></a>Election Results Reporting System
 A system that:
- · aggregates and displays [election](#election) results across the jurisdiction,
- · can be real-time or near real-time,
- · can provide a variety of formats for displaying [election](#election) results, and
- · may provide direct feeds for the media.
+ - aggregates and displays [election](#election) results across the jurisdiction,
+ - can be real-time or near real-time,
+ - can provide a variety of formats for displaying [election](#election) results, and
+ - may provide direct feeds for the media.
 
 ## <a name="electionworker"></a>election worker
 Any person who interacts with those coming to [vote](#vote). This includes any poll worker, [election day](#electionday) worker, [early voting](#earlyvoting) worker, or other temporary staff engaged in supporting the [voting process](#votingprocess).
@@ -378,7 +384,7 @@ The delivery of [ballot](#ballot) and [voter](#voter) information packets electr
 Subsystem within a [voting system](#votingsystem) which communicates [ballot](#ballot) information to a [voter](#voter) in video, audio, or other [alternative format](#alternativeformat) which allows the [voter](#voter) to select candidates and issues using vocalization or physical actions.
 
 ## <a name="electronicballotreturn"></a>electronic ballot return
-The return of a voted [ballot](#ballot) or [voter](#voter) information packet using electronic means. This can be by fax, email, or through the use of an Internet supported application. Sometimes referred to as “Internet Voting.”
+The return of a voted [ballot](#ballot) or [voter](#voter) information packet using electronic means. This can be by fax, email, or through the use of an Internet supported application. Sometimes referred to as â€œInternet Voting.â€�
 
 ## <a name="electronicdevice"></a>electronic device
 Device that uses electronic or electromechanical components.
@@ -393,7 +399,7 @@ Component of an electronic [vote-capture device](#vote-capturedevice) that commu
 The universe of all voters who, if they appeared at a voting location, would have the legal right to [vote](#vote) a countable [ballot](#ballot). This would include those who do not appear in the list of [eligible voters](#eligiblevoters) because they live in a same-day registration or no registration state and did not or could not register ahead of time.
 
 ## <a name="encryption"></a>encryption
-Cryptographic process of transforming data (called “plaintext”) into a form (called “ciphertext”) that conceals the data’s original meaning to prevent it from being known or used. [Encryption](#encryption) provides [confidentiality](#confidentiality) protection.
+Cryptographic process of transforming data (called â€œplaintextâ€�) into a form (called â€œciphertextâ€�) that conceals the dataâ€™s original meaning to prevent it from being known or used. [Encryption](#encryption) provides [confidentiality](#confidentiality) protection.
 
 ## <a name="endorsement"></a>endorsement
 Approval by a political party, for example, as the [candidate](#candidate) that the party fields in a particular [contest](#contest) or as the [candidate](#candidate) that should receive straight party votes. See also: [affiliation](#affiliation).
@@ -421,15 +427,15 @@ Mark that falls wholly or partially inside a [contest selection](#contestselecti
 A text-based language used to organize and present information on the World Wide Web.
 
 ## <a name="extraneousmark"></a>extraneous mark
-A mark on a [paper ballot](#paperballot) that appears to be unrelated to the act of indicating a voter’s selection. Examples include:
-  a mark made unintentionally by a [voter](#voter) that is obviously not related to making a selection; a [hesitation mark](#hesitationmark), a dot within or outside of the target area made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voter’s selection; or printing defects.
+A mark on a [paper ballot](#paperballot) that appears to be unrelated to the act of indicating a voterâ€™s selection. Examples include:
+  a mark made unintentionally by a [voter](#voter) that is obviously not related to making a selection; a [hesitation mark](#hesitationmark), a dot within or outside of the target area made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voterâ€™s selection; or printing defects.
 
 ## <a name="failure"></a>failure
 Looking at [voting system](#votingsystem) reliability, a [failure](#failure) is an event that results in:
- · loss of one or more functions,
- · degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than 10 seconds,
- · automatic reset, restart, or reboot of the [voting device](#votingdevice), operating system or application software, requiring an unanticipated intervention by a person in the role of [election worker](#electionworker) or technician before normal operation can continue, or
- · error messages or [audit](#audit) log entries indicating that a [failure](#failure) has occurred.
+ - loss of one or more functions,
+ - degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than 10 seconds,
+ - automatic reset, restart, or reboot of the [voting device](#votingdevice), operating system or application software, requiring an unanticipated intervention by a person in the role of [election worker](#electionworker) or technician before normal operation can continue, or
+ - error messages or [audit](#audit) log entries indicating that a [failure](#failure) has occurred.
 
 ## <a name="failurerate"></a>failure rate
 Ratio of the number of failures that occur to the volume of data processed.
@@ -450,10 +456,10 @@ Standards for federal computer systems developed by NIST. These standards are de
 A gateway system designed to prevent unauthorized access to a private network or intranet that is connected to the internet. A [firewall](#firewall) can be implemented in either [hardware](#hardware) or software, or a combination of both.
 
 ## <a name="firmware"></a>firmware
-A specific class of software encoded directly into a [hardware](#hardware) [device](#device) that controls its defined functions and provides the low-level control for the computer’s specific [hardware](#hardware) (such as the [firmware](#firmware) that initially boots an operating system).
+A specific class of software encoded directly into a [hardware](#hardware) [device](#device) that controls its defined functions and provides the low-level control for the computerâ€™s specific [hardware](#hardware) (such as the [firmware](#firmware) that initially boots an operating system).
 
 ## <a name="FunctionalConfigurationAudit"></a>Functional Configuration Audit
-Exhaustive verification of every system function and combination of functions cited in the manufacturer’s documentation. The FCA verifies the accuracy and completeness of the system’s [Voter](#voter) Manual, Operations Procedures, Maintenance Procedures, and Diagnostic Testing Procedures.
+Exhaustive verification of every system function and combination of functions cited in the manufacturerâ€™s documentation. The FCA verifies the accuracy and completeness of the systemâ€™s [Voter](#voter) Manual, Operations Procedures, Maintenance Procedures, and Diagnostic Testing Procedures.
 
 ## <a name="functionaltest"></a>functional test
 Test performed to verify or validate the accomplishment of one or more functions.
@@ -543,7 +549,7 @@ Entity with ownership and control over a [voting system](#votingsystem) submitte
 An intentional mark in a [contest selection](#contestselection) position of a [paper ballot](#paperballot) that does not meet the requirements for a reliably detectable selection, and therefore requires human [adjudication](#adjudication). A marginal mark may be determined to indicate a selection, depending on state law.
 
 ## <a name="markedballot"></a>marked ballot
-Ballot that contains all of a voter’s selections.
+Ballot that contains all of a voterâ€™s selections.
 
 ## <a name="militaryvoter"></a>military voter
 A member of a uniformed service in active service, including army, navy, air force, marine corps, coast guard and merchant marine, and their spouses and dependents.
@@ -556,9 +562,9 @@ A structural unit of a software program that serves a specific function for the 
 
 ## <a name="multi-factorauthentication"></a>multi-factor authentication
 Authentication mechanism requiring two or more of the following:
- · something you know (such as a password),
- · something you have (such as a token),
- · something you are (for example, biometric authentication).
+ - something you know (such as a password),
+ - something you have (such as a token),
+ - something you are (for example, biometric authentication).
 
 ## <a name="multi-seatcontest"></a>multi-seat contest
 Contest in which multiple candidates are elected to fill a specified number of seats. Voters may [vote](#vote) for no more than the specified number of candidates.
@@ -608,10 +614,10 @@ Primary [election](#election) in which the [voter](#voter) may choose a politica
 
 ## <a name="opensource"></a>open source
 Computer software with its [source code](#sourcecode) (human readable code) made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose. [Open source](#opensource) software may:
- · be developed in a collaborative public manner;
- · be reviewed by multiple professional and amateur programmers;
- · require a fee and be licensed like other software;
- · be fully [open source](#opensource) or may have only a portion of the software [open source](#opensource).
+ - be developed in a collaborative public manner;
+ - be reviewed by multiple professional and amateur programmers;
+ - require a fee and be licensed like other software;
+ - be fully [open source](#opensource) or may have only a portion of the software [open source](#opensource).
 
 ## <a name="opticalscan"></a>optical scan
 Voting system that counts votes recorded by marks made in voting response fields on the surface of a [paper ballot](#paperballot).
@@ -641,7 +647,7 @@ Election held to determine which candidates will be listed on the [ballot](#ball
 Contest where eligibility to [vote](#vote) in that [contest](#contest) is restricted based on political party [affiliation](#affiliation) or lack of any [affiliation](#affiliation). The [affiliation](#affiliation) might be the registered [affiliation](#affiliation) of the [voter](#voter) or it might be an [affiliation](#affiliation) declared at the time of voting. See also: [closed primary](#closedprimary), [open primary](#openprimary).
 
 ## <a name="patternvoting"></a>pattern voting
-Casting votes across multiple contests in a predetermined pattern in order to signal one’s identity. The possibility of [pattern voting](#patternvoting) can be an issue for publishing [Cast](#cast) [Vote](#vote) Records (CVR) because it may compromise [voter](#voter) [privacy](#privacy) if there are lots of selections in each published CVR.
+Casting votes across multiple contests in a predetermined pattern in order to signal oneâ€™s identity. The possibility of [pattern voting](#patternvoting) can be an issue for publishing [Cast](#cast) [Vote](#vote) Records (CVR) because it may compromise [voter](#voter) [privacy](#privacy) if there are lots of selections in each published CVR.
 
 ## <a name="penetrationtesting"></a>penetration testing
 An evaluation method that enables researchers to search for vulnerabilities in a system.
@@ -651,11 +657,11 @@ Assistive technology belonging to voters rather than any supplied with the [voti
 
 ## <a name="PersonalIdentifiableInformation"></a>Personal Identifiable Information
 Any information about an individual maintained by an agency, including:
- · information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric records; and
- · any other information that can be linked to an individual, such as medical, educational, financial, and employment information.
+ - information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric records; and
+ - any other information that can be linked to an individual, such as medical, educational, financial, and employment information.
 
 ## <a name="PhysicalConfigurationAudit"></a>Physical Configuration Audit
-Inspection by a [voting system [test](#test) lab](#VotingSystemTestLab) (VSTL) that compares the [voting system](#votingsystem) components submitted for [certification testing](#certificationtesting) to the manufacturer’s technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the tested components.
+Inspection by a [voting system [test](#test) lab](#VotingSystemTestLab) (VSTL) that compares the [voting system](#votingsystem) components submitted for [certification testing](#certificationtesting) to the manufacturerâ€™s technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the tested components.
 
 ## <a name="politicalsubdivision"></a>political subdivision
 Any unit of government, such as counties, cities, school districts, and water and conservation districts having authority to hold elections for public offices or on [ballot](#ballot) issues.
@@ -668,8 +674,8 @@ Location at which voters may [cast](#cast) in-person ballots under the supervisi
 
 ## <a name="post-electionaudit"></a>post-election audit
 Hand-counting votes on paper records, then comparing those counts to the corresponding [vote](#vote) counts originally reported:
- · as a check on the accuracy of [election](#election) results, and
- · to resolve discrepancies using accurate hand counts of the paper records as the [benchmark](#benchmark).
+ - as a check on the accuracy of [election](#election) results, and
+ - to resolve discrepancies using accurate hand counts of the paper records as the [benchmark](#benchmark).
 
 ## <a name="precinct"></a>precinct
 Election administration division corresponding to a geographic area that is the basis for determining which contests and issues the voters legally residing in that area are eligible to [vote](#vote) on.
@@ -720,16 +726,16 @@ A set of roles, policies, and procedures used to establish greater trust in the 
 An abbreviated logic and accuracy [test](#test) of voting equipment, pre-announced in public print media and open to public attendance, usually in [conformance](#conformance) with specific [election](#election) calendar timing.
 
 ## <a name="QRCode"></a>QR Code
-Quick Response Code. A 2-D, trademarked bar code. Some proprietary voting systems will encode the voter’s selections in a [QR Code](#QRCode) that can be read on a scanner in the [precinct](#precinct) and converted to a printed [ballot](#ballot).
+Quick Response Code. A 2-D, trademarked bar code. Some proprietary voting systems will encode the voterâ€™s selections in a [QR Code](#QRCode) that can be read on a scanner in the [precinct](#precinct) and converted to a printed [ballot](#ballot).
 
 ## <a name="rangevoting"></a>range voting
 A voting method for single-seat elections, in which voters give each [candidate](#candidate) a score, the scores are added (or averaged), and the [candidate](#candidate) with the highest total is elected.
 
 ## <a name="rankedchoicevoting"></a>ranked choice voting
 A set of [election](#election) methods:
- · which allow each [voter](#voter) to rank [contest](#contest) options in order of the voter's preference,
- · in which votes are counted in rounds using a series of runoff tabulations to defeat [contest](#contest) options with the fewest votes, and,
- · which elects a winner with a majority of final round votes in a single-winner [contest](#contest) and provides proportional representation in multi-winner contests.
+ - which allow each [voter](#voter) to rank [contest](#contest) options in order of the voter's preference,
+ - in which votes are counted in rounds using a series of runoff tabulations to defeat [contest](#contest) options with the fewest votes, and,
+ - which elects a winner with a majority of final round votes in a single-winner [contest](#contest) and provides proportional representation in multi-winner contests.
 
 ## <a name="readballot"></a>read ballot
 Cast [ballot](#ballot) that has been successfully accepted and initially processed.
@@ -906,7 +912,7 @@ Indication of support for a particular [contest option](#contestoption).
 A physical location where voters from multiple precincts may [cast](#cast) their ballots.
 
 ## <a name="voteforNofM"></a>vote for N of M
-A [multi-seat contest](#multi-seatcontest) in which voters are allowed to [vote](#vote) for a specified number (“N”) of candidates.
+A [multi-seat contest](#multi-seatcontest) in which voters are allowed to [vote](#vote) for a specified number (â€œNâ€�) of candidates.
 
 ## <a name="vote-by-mail"></a>vote-by-mail
 Method of casting ballots by which [eligible voters](#eligiblevoters) are mailed ballots and information packets by the local jurisdiction. Voters can return their marked ballots by mail, bring them to an [election](#election) [office](#office), or drop them off in secure drop boxes.
@@ -919,9 +925,9 @@ Person permitted to [cast](#cast) a [ballot](#ballot).
 
 ## <a name="voterfacingscanner"></a>voter facing scanner
 A [ballot](#ballot) processing [device](#device) that:
- · accepts hand-marked or BMD-produced paper ballots one sheet at a time;
- · is usually used for [in-person voting](#in-personvoting);
- · permits [election](#election) officials to open and close the polls;
+ - accepts hand-marked or BMD-produced paper ballots one sheet at a time;
+ - is usually used for [in-person voting](#in-personvoting);
+ - permits [election](#election) officials to open and close the polls;
   scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest](#contest) selections; notifies the [voter](#voter) of voting exceptions (such as undervotes or overvotes) or unreadable marks; stores accepted ballots in a secure container; sorts or otherwise marks ballots or [ballot](#ballot) images that need subsequent human review; and tabulates and reports [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinctcount) optical scanner or PCOS.
 
 ## <a name="voterintent"></a>voter intent
