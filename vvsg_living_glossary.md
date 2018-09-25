@@ -133,7 +133,7 @@ The concrete presentation of the contents of a [ballot](#ballot) appropriate to 
 
 \#vvsg
 ## <a name="ballotimage"></a>ballot image
-Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A [ballot image](#ballotimage) might be a transient logical representation of the [votes](#vote) or an archival [record](#record) (a [cast [vote](#vote) record](#castvoterecord)).
+Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A [ballot image](#ballotimage) might be a transient logical representation of the [votes](#vote) or an archival [record](#record) (a [cast vote record](#castvoterecord)).
 
 \#vvsg
 ## <a name="ballotinstructions"></a>ballot instructions
@@ -160,7 +160,7 @@ A [contest option](#contestoption) that specifies a response to a [ballot measur
 
 \#vvsg
 ## <a name="ballotofrecord"></a>ballot of record
-The voter's [cast ballot](#castballot) that, when used in [audits](#audit) of [vote](#vote) counts, takes precedence over the [cast [vote](#vote) record](#castvoterecord) that was created from the [ballot](#ballot) and that was used in the tabulation of [vote](#vote) counts.
+The voter's [cast ballot](#castballot) that, when used in [audits](#audit) of [vote](#vote) counts, takes precedence over the [cast vote record](#castvoterecord) that was created from the [ballot](#ballot) and that was used in the tabulation of [vote](#vote) counts.
 
 \#vvsg
 ## <a name="ballotondemand"></a>ballot on demand
@@ -397,7 +397,7 @@ A password that changes at a defined interval or event.
 
 \#vvsg
 ## <a name="EAC"></a>EAC
-Election Assistance Commission, created by the [Help America [Vote](#vote) Act](#HelpAmericaVoteAct) (HAVA) to assist the states regarding HAVA compliance and to distribute HAVA funds to the states. The [EAC](#EAC) is also charged with creating [voting system](#votingsystem) guidelines and operating the federal government's first [voting system](#votingsystem) certification program. The [EAC](#EAC) is also responsible for maintaining the National [Voter](#voter) Registration form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve [elections](#election).
+Election Assistance Commission, created by the [Help America Vote Act](#HelpAmericaVoteAct) (HAVA) to assist the states regarding HAVA compliance and to distribute HAVA funds to the states. The [EAC](#EAC) is also charged with creating [voting system](#votingsystem) guidelines and operating the federal government's first [voting system](#votingsystem) certification program. The [EAC](#EAC) is also responsible for maintaining the National [Voter](#voter) Registration form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve [elections](#election).
 
 \#vvsg
 ## <a name="earlyvoting"></a>early voting
@@ -733,7 +733,7 @@ Voting method in which the [voter](#voter) is entitled to allocate a fixed numbe
 
 \#vvsg
 ## <a name="nationalcertificationtestreport"></a>national certification test report
-Report of the results of independent testing of a [voting system](#votingsystem) by a [Voting System [Test](#test) Lab](#VotingSystemTestLab) (VSTL) delivered to the [EAC](#EAC) with a recommendation about granting a certification number.
+Report of the results of independent testing of a [voting system](#votingsystem) by a [Voting System Test Lab](#VotingSystemTestLab) (VSTL) delivered to the [EAC](#EAC) with a recommendation about granting a certification number.
 
 \#vvsg
 ## <a name="NationalInstituteofStandardsandTechnology"></a>National Institute of Standards and Technology
@@ -807,7 +807,7 @@ A single piece of paper that forms part of a [paper ballot](#paperballot). [Pape
 
 \#vvsg
 ## <a name="paperballotside"></a>paper ballot side
-The face of a [paper [ballot](#ballot) sheet](#paperballotsheet). A [paper ballot](#paperballot) may have two sides.
+The face of a [paper ballot sheet](#paperballotsheet). A [paper ballot](#paperballot) may have two sides.
 
 \#vvsg
 ## <a name="partisanoffice"></a>partisan office
@@ -823,7 +823,7 @@ Contest where eligibility to [vote](#vote) in that [contest](#contest) is restri
 
 \#vvsg
 ## <a name="patternvoting"></a>pattern voting
-Casting [votes](#vote) across multiple [contests](#contest) in a predetermined pattern in order to signal one's identity. The possibility of [pattern voting](#patternvoting) can be an issue for publishing [Cast [Vote](#vote) Records](#castvoterecord) (CVR) because it may compromise [voter](#voter) [privacy](#privacy) if there are lots of selections in each published CVR.
+Casting [votes](#vote) across multiple [contests](#contest) in a predetermined pattern in order to signal one's identity. The possibility of [pattern voting](#patternvoting) can be an issue for publishing [Cast Vote Records](#castvoterecord) (CVR) because it may compromise [voter](#voter) [privacy](#privacy) if there are lots of selections in each published CVR.
 
 \#vvsg
 ## <a name="penetrationtesting"></a>penetration testing
@@ -841,7 +841,7 @@ Any information about an individual maintained by an agency, including:
 
 \#vvsg
 ## <a name="PhysicalConfigurationAudit"></a>Physical Configuration Audit
-Inspection by a [voting system [test](#test) lab](#VotingSystemTestLab) (VSTL) that compares the [voting system](#votingsystem) [components](#component) submitted for [certification testing](#certificationtesting) to the manufacturer's technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the tested [components](#component).
+Inspection by a [voting system test lab](#VotingSystemTestLab) (VSTL) that compares the [voting system](#votingsystem) [components](#component) submitted for [certification testing](#certificationtesting) to the manufacturer's technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the tested [components](#component).
 
 \#vvsg
 ## <a name="politicalsubdivision"></a>political subdivision
@@ -963,7 +963,7 @@ Re-examination, and possibly retesting, of a [voting system](#votingsystem) that
 
 \#vvsg
 ## <a name="recordedballot"></a>recorded ballot
-A [ballot](#ballot) for which there is an associated [cast [vote](#vote) record](#castvoterecord).
+A [ballot](#ballot) for which there is an associated [cast vote record](#castvoterecord).
 
 \#vvsg
 ## <a name="recount"></a>recount
@@ -1141,7 +1141,7 @@ Act of Congress in 1986 requiring that the states and territories allow certain 
 
 \#vvsg
 ## <a name="UOCAVAvoter"></a>UOCAVA voter
-An [overseas voter](#overseasvoter) or an active duty member of the U.S. military, either within or outside the United States, including any accompanying spouse and family members who are eligible to [vote](#vote) in their last place of residence in the United States. The [Uniformed and Overseas Citizens [Absentee Voting](#absenteevoting) Act](#UniformedandOverseasCitizensAbsenteeVotingAct) is commonly referred to as UOCAVA.
+An [overseas voter](#overseasvoter) or an active duty member of the U.S. military, either within or outside the United States, including any accompanying spouse and family members who are eligible to [vote](#vote) in their last place of residence in the United States. The [Uniformed and Overseas Citizens Absentee Voting Act](#UniformedandOverseasCitizensAbsenteeVotingAct) is commonly referred to as UOCAVA.
 
 \#vvsg
 ## <a name="usability"></a>usability

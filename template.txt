@@ -26,7 +26,7 @@
 #if(!$list.contains($skipWords, $termToMatch.name)) 
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
 #set ($docLink = 
-$docLink.replaceAll("(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3"))
+$docLink.replaceAll("(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3"))
 #end
 #end
 #end
