@@ -133,7 +133,7 @@ The concrete presentation of the contents of a [ballot](#ballot) appropriate to 
 
 \#vvsg
 ## <a name="ballotimage"></a>ballot image
-Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A [ballot image](#ballotimage) might be a transient logical representation of the [votes](#vote) or an archival [record](#record) (a [cast](#cast) [vote](#vote) record).
+Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A [ballot image](#ballotimage) might be a transient logical representation of the [votes](#vote) or an archival [record](#record) (a [cast [vote](#vote) record](#castvoterecord)).
 
 \#vvsg
 ## <a name="ballotinstructions"></a>ballot instructions
@@ -179,7 +179,7 @@ The process of varying the order of listed [candidates](#candidate) within a [co
 
 \#vvsg
 ## <a name="ballotstyle"></a>ballot style
-Ballot data that has been put into [contest](#contest) order for a particular [precinct](#precinct) and considers a particular set of [voter](#voter) situations. [Voter](#voter) situations include party [affiliation](#affiliation) (for closed primaries), and age of the [voter](#voter) (in states that permit 17-year-olds to [vote](#vote) in primary elections), among others.
+Ballot data that has been put into [contest](#contest) order for a particular [precinct](#precinct) and considers a particular set of [voter](#voter) situations. [Voter](#voter) situations include party [affiliation](#affiliation) (for closed primaries), and age of the [voter](#voter) (in states that permit 17-year-olds to [vote](#vote) in [primary elections](#primaryelection)), among others.
 
 \#vvsg
 ## <a name="barcode"></a>barcode
@@ -276,7 +276,7 @@ Format used for [usability](#usability) [test](#test) reporting.
 
 \#vvsg
 ## <a name="comparisonaudit"></a>comparison audit
-Audit in which the [voting system](#votingsystem) count of a [batch](#batch) (or interpretation of a ballot) is compared with the audit's count or interpretation of the same [batch](#batch) or [ballot](#ballot).
+Audit in which the [voting system](#votingsystem) count of a [batch](#batch) (or interpretation of a [ballot](#ballot)) is compared with the audit's count or interpretation of the same [batch](#batch) or [ballot](#ballot).
 
 \#vvsg
 ## <a name="component"></a>component
@@ -365,7 +365,7 @@ Revocation of national or state certification of a [voting system](#votingsystem
 
 \#vvsg
 ## <a name="decryption"></a>decryption
-Cryptographic process of transforming encrypted data into its original form (prior to encryption).
+Cryptographic process of transforming encrypted data into its original form (prior to [encryption](#encryption)).
 
 \#vvsg
 ## <a name="defense-in-depth"></a>defense-in-depth
@@ -714,8 +714,8 @@ A structural unit of a software program that serves a specific function for the 
 ## <a name="multi-factorauthentication"></a>multi-factor authentication
 Authentication mechanism requiring two or more of the following:
  - something you know (such as a password),
- - something you have (such as a token),
- - something you are (for example, biometric authentication).
+ - something you have (such as a [token](#token)),
+ - something you are (for example, biometric [authentication](#authentication)).
 
 \#vvsg
 ## <a name="multi-seatcontest"></a>multi-seat contest
@@ -979,7 +979,7 @@ Ratio of the [report](#report) total error to the [report](#report) total volume
 
 \#vvsg
 ## <a name="reportingunit"></a>reporting unit
-Geographical area in which reported totals or counts are reported (for example, a jurisdiction, [precinct](#precinct), or [election](#election) district).
+Geographical area in which reported totals or counts are reported (for example, a jurisdiction, [precinct](#precinct), or [election district](#electiondistrict)).
 
 \#vvsg
 ## <a name="reproducibility"></a>reproducibility
@@ -991,7 +991,7 @@ Vote that could not be allocated to a specific [contest](#contest) due to an [un
 
 \#vvsg
 ## <a name="reviewedballot"></a>reviewed ballot
-Ballot that has been reviewed (either electronically or by the voter) before it is [cast](#cast), to determine what [contest selections](#contestselection) it contains.
+Ballot that has been reviewed (either electronically or by the [voter](#voter)) before it is [cast](#cast), to determine what [contest selections](#contestselection) it contains.
 
 \#vvsg
 ## <a name="riskassessment"></a>risk assessment
@@ -999,7 +999,7 @@ The process of identifying the risks to system security and determining the prob
 
 \#vvsg
 ## <a name="risk-limitingaudit"></a>risk-limiting audit
-Procedure for checking a sample of [ballots](#ballot) (or voter-verifiable records) that is guaranteed to have a large, pre-specified chance of correcting the reported outcome if the reported outcome is wrong (that is, if a full hand count would reveal an outcome different from the reported outcome).
+Procedure for checking a sample of [ballots](#ballot) (or voter-verifiable [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the reported outcome if the reported outcome is wrong (that is, if a full hand count would reveal an outcome different from the reported outcome).
 
 \#vvsg
 ## <a name="runoffelection"></a>runoff election
@@ -1039,7 +1039,7 @@ A targeted attack by hackers, using bogus emails, that attempts to get the victi
 
 \#vvsg
 ## <a name="spoil"></a>spoil
-(A ballot) To mark or otherwise alter a [ballot](#ballot) so it indicates in a human-readable manner that the [ballot](#ballot) is not to be [cast](#cast).
+(A [ballot](#ballot)) To mark or otherwise alter a [ballot](#ballot) so it indicates in a human-readable manner that the [ballot](#ballot) is not to be [cast](#cast).
 
 \#vvsg
 ## <a name="spoiledballot"></a>spoiled ballot
@@ -1093,7 +1093,7 @@ Manufacturer documentation relating to the [voting system](#votingsystem), which
 
 \#vvsg
 ## <a name="test"></a>test
-Procedure used to determine one or more characteristics of a given product, process, or service according to a specified procedure for conformity assessment. A [test](#test) may be an operational [test](#test) or a non-operating [test](#test) (for example, an inspection).
+Procedure used to determine one or more characteristics of a given product, process, or service according to a specified procedure for conformity assessment. A [test](#test) may be an operational [test](#test) or a non-operating [test](#test) (for example, an [inspection](#inspection)).
 
 \#vvsg
 ## <a name="testdeck"></a>test deck
@@ -1109,7 +1109,7 @@ Document created prior to testing that outlines the scope and nature of testing,
 
 \#vvsg
 ## <a name="testsuite"></a>test suite
-Implementation of a set of operational [tests](#test) for a particular object (such as a specific voting system) or class of objects (such as all [voting systems](#votingsystem) that can interpret the language in which the [test](#test) data are expressed).
+Implementation of a set of operational [tests](#test) for a particular object (such as a specific [voting system](#votingsystem)) or class of objects (such as all [voting systems](#votingsystem) that can interpret the language in which the [test](#test) data are expressed).
 
 \#vvsg
 ## <a name="third-partylogic"></a>third-party logic
@@ -1197,7 +1197,7 @@ A [ballot](#ballot) processing [device](#device) that:
  - accepts hand-marked or BMD-produced [paper ballots](#paperballot) one sheet at a time;
  - is usually used for [in-person voting](#in-personvoting);
  - permits [election officials](#electionofficial) to open and close the polls;
-  scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contestselection); notifies the [voter](#voter) of voting exceptions (such as [undervotes](#undervote) or overvotes) or unreadable marks; stores accepted [ballots](#ballot) in a secure container; sorts or otherwise marks [ballots](#ballot) or [ballot images](#ballotimage) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinctcount) optical scanner or PCOS.
+  scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contestselection); notifies the [voter](#voter) of voting exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks; stores accepted [ballots](#ballot) in a secure container; sorts or otherwise marks [ballots](#ballot) or [ballot images](#ballotimage) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinctcount) optical scanner or PCOS.
 
 \#vvsg
 ## <a name="voterintent"></a>voter intent
