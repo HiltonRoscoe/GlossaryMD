@@ -1,6 +1,6 @@
 # Glossary for Markdown (GlossaryMD)
 
-[vvsg_living_glossary.md](Example VVSG Glossary Output)
+[Example VVSG Glossary Output](vvsg_living_glossary.md)
 
 Instructions for Generation
 
