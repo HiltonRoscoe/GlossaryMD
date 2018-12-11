@@ -20,7 +20,7 @@
 # $package.name Glossary
 #foreach ($class in $sorter.sort($classList))
 #[[##]]# <a name="$class.name.replaceAll("\s+","")"></a>$class.name
-#set ($docLink = $class.documentation)
+#set ($docLink = " " + $class.documentation)
 #foreach ($termToMatch in $hrsort.sortByLength($classList))
 #set ($skipWords = $report.getStereotypeProperty($class, "glossaryEntry", "ignoreEntries"))
 #if(!$list.contains($skipWords, $termToMatch.name)) 
@@ -30,7 +30,7 @@ $docLink.replaceAll("(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[
 #end
 #end
 #end
-$docLink
+$docLink.substring(1)
 #set ($communities = $report.getStereotypeProperty($class, "glossaryEntry", "communities"))
 #if($communities)
 
