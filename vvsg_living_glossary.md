@@ -308,7 +308,7 @@ A specified area on a [ballot](#ballot) where a voter's selection in a particula
 \#vvsg
 ## <a name="contestoptionvote"></a>contest option vote
 [Vote](#vote) that will be counted for a particular [contest option](#contestoption).
- This term was previously referred to as [valid](#validation) [vote](#vote).
+ This term was previously referred to as [valid vote](#validvote).
 
 \#vvsg
 ## <a name="contestselection"></a>contest selection
@@ -589,7 +589,7 @@ Exhaustive verification of every system function and combination of functions ci
 
 \#vvsg
 ## <a name="GeographicalInformationSystem"></a>Geographical Information System
-A system designed to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data. GIS systems are used to [validate](#validation) [voting](#vote) district boundaries and may be integrated with the [voter](#voter) registration system.
+A system designed to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data. GIS systems are used to [validate voting](#validvote) district boundaries and may be integrated with the [voter](#voter) registration system.
 
 \#vvsg
 ## <a name="GeopoliticalUnit"></a>Geopolitical Unit
@@ -1157,7 +1157,7 @@ An [overseas voter](#overseasvoter) or an active duty member of the U.S. militar
 
 \#vvsg
 ## <a name="usability"></a>usability
-Effectiveness, efficiency, and satisfaction with which a specified set of users can achieve a specified set of tasks in a particular environment. [Usability](#usability) in the context of [voting](#vote) refers to [voters](#voter) being able to [cast](#cast) [valid](#validation) [votes](#vote) as they intended quickly, without errors, and with confidence that their [contest selections](#contestselection) were [recorded](#record) correctly. It also refers to the [usability](#usability) of the setup and operation of [voting](#vote) equipment in the [polling place](#pollingplace).
+Effectiveness, efficiency, and satisfaction with which a specified set of users can achieve a specified set of tasks in a particular environment. [Usability](#usability) in the context of [voting](#vote) refers to [voters](#voter) being able to [cast](#cast) [valid votes](#validvote) as they intended quickly, without errors, and with confidence that their [contest selections](#contestselection) were [recorded](#record) correctly. It also refers to the [usability](#usability) of the setup and operation of [voting](#vote) equipment in the [polling place](#pollingplace).
 
 \#vvsg
 ## <a name="usabilitytesting"></a>usability testing
@@ -1253,7 +1253,7 @@ The location within a [polling place](#pollingplace) where [voters](#voter) may 
 
 \#vvsg
 ## <a name="votingsystem"></a>voting system
-Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to define [elections](#election) and [ballot styles](#ballotstyle), configure [voting](#vote) equipment, identify and [validate](#validation) [voting](#vote) equipment configurations, perform [logic and accuracy tests](#logicandaccuracytesting), activate [ballots](#ballot), capture [votes](#vote), count [votes](#vote), reconcile [ballots](#ballot) needing special treatment, generate [reports](#report), transmit [election](#election) data, archive [election](#election) data, and [audit](#audit) [elections](#election).
+Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to define [elections](#election) and [ballot styles](#ballotstyle), configure [voting](#vote) equipment, identify and [validate voting](#validvote) equipment configurations, perform [logic and accuracy tests](#logicandaccuracytesting), activate [ballots](#ballot), capture [votes](#vote), count [votes](#vote), reconcile [ballots](#ballot) needing special treatment, generate [reports](#report), transmit [election](#election) data, archive [election](#election) data, and [audit](#audit) [elections](#election).
 
 \#vvsg
 ## <a name="votingsystemsoftware"></a>voting system software
