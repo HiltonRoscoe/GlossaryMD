@@ -27,13 +27,20 @@
 #if ($UseNLP == "yes")
 #set ($matchedPhrases = $hrlang.findClassUsage($class.documentation.toLowerCase(), $termToMatch.name.toLowerCase(), true))
 #foreach($phrase in $matchedPhrases)
-#set ($docLink = $docLink.replaceAll("(?i) (\b$phrase#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3"))
+#set ($searchRegex = "(?i) (\b$phrase#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])")
+#set ($replaceRegex = " [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3")
+#set ($docLink = $docLink.replaceAll($searchRegex,$replaceRegex))
 #end
 #else
 ## USE Non-UseNLP
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
-#set ($docLink = 
-$docLink.replaceAll("(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3"))
+#set ($searchRegex = "(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])")
+#set ($replaceRegex = " [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3")
+#if ($ReplaceMode == "all")
+#set ($docLink = $docLink.replaceAll($searchRegex, $replaceRegex))
+#else
+#set ($docLink = $docLink.replaceFirst($searchRegex, $replaceRegex))
+#end
 #end
 #end
 #end
