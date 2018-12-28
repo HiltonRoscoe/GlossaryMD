@@ -24,9 +24,17 @@
 #foreach ($termToMatch in $hrsort.sortByLength($classList))
 #set ($skipWords = $report.getStereotypeProperty($class, "glossaryEntry", "ignoreEntries"))
 #if(!$list.contains($skipWords, $termToMatch.name)) 
+#if ($UseNLP == "yes")
+#set ($matchedPhrases = $hrlang.findClassUsage($class.documentation.toLowerCase(), $termToMatch.name.toLowerCase(), true))
+#foreach($phrase in $matchedPhrases)
+#set ($docLink = $docLink.replaceAll("(?i) (\b$phrase#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3"))
+#end
+#else
+## USE Non-UseNLP
 #if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
 #set ($docLink = 
 $docLink.replaceAll("(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])"," [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3"))
+#end
 #end
 #end
 #end
