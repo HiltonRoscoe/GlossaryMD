@@ -1,6 +1,5 @@
 #import('text', 'com.nomagic.reportwizard.tools.TextTool')
 #import('hrsort', 'com.hiltonroscoe.mdreportext.Sorter')
-#import('hrlang', 'com.hiltonroscoe.mdreportext.Language')
 #set($packages = $array.createArray())
 #set($void = $array.addCollection($packages, $Package))
 #set($void = $array.addCollection($packages, $SmartPackage))
