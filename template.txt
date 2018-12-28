@@ -22,6 +22,7 @@
 #[[##]]# <a name="$class.name.replaceAll("\s+","")"></a>$class.name
 #set ($docLink = " " + $class.documentation)
 #foreach ($termToMatch in $hrsort.sortByLength($classList))
+#if($termToMatch != $class)
 #set ($skipWords = $report.getStereotypeProperty($class, "glossaryEntry", "ignoreEntries"))
 #if(!$list.contains($skipWords, $termToMatch.name)) 
 #if ($UseNLP == "yes")
@@ -40,6 +41,7 @@
 #set ($docLink = $docLink.replaceAll($searchRegex, $replaceRegex))
 #else
 #set ($docLink = $docLink.replaceFirst($searchRegex, $replaceRegex))
+#end
 #end
 #end
 #end
