@@ -1,3 +1,6 @@
+<!-- 
+MagicDraw Template for Markdown Glossary
+-->
 # VVSGTerm Glossary
 ## <a name="absenteeballot"></a>absentee ballot
 [Ballot](#ballot) used for [absentee voting](#absenteevoting).
@@ -32,15 +35,15 @@ Formal recognition that a laboratory is competent to carry out specific [tests](
 1. Authoritative body that provides [accreditation](#accreditation).
 2. Independent organization responsible for
  - assessing the performance of other organizations against a recognized [standard](#standard), and
- - formally confirming the status of those that meet the [standard](#standard).
+ - formally confirming the status of those that meet the standard.
 
 \#vvsg
 ## <a name="activationdevice"></a>activation device
-[Programmed device](#programmeddevice) that creates credentials necessary to begin a [voting session](#votingsession) using a specific [ballot style](#ballotstyle). Examples include [electronic poll books](#electronicpollbook) and card activators that contain credential information necessary to determine the appropriate [ballot style](#ballotstyle) for the [voter](#voter).
+[Programmed device](#programmeddevice) that creates credentials necessary to begin a [voting session](#votingsession) using a specific [ballot style](#ballotstyle). Examples include [electronic poll books](#electronicpollbook) and card activators that contain credential information necessary to determine the appropriate ballot style for the [voter](#voter).
 
 \#vvsg
 ## <a name="activeperiod"></a>active period
-Span of time during which a [vote-capture device](#vote-capturedevice) either is ready to begin a [voting session](#votingsession) or is in use during a [voting session](#votingsession).
+Span of time during which a [vote-capture device](#vote-capturedevice) either is ready to begin a [voting session](#votingsession) or is in use during a voting session.
 
 \#vvsg
 ## <a name="adjudication"></a>adjudication
@@ -49,7 +52,7 @@ Process of resolving flagged [cast ballots](#castballot) to reflect [voter inten
  - [overvotes](#overvote),
  - marginal marks,
  - having no [contest selections](#contestselection) marked on the entire [ballot](#ballot), or
- - the [ballot](#ballot) being unreadable by a scanner.
+ - the ballot being unreadable by a scanner.
 
 \#vvsg
 ## <a name="adjudication-requiredballot"></a>adjudication-required ballot
@@ -70,6 +73,7 @@ The amount of time that a [voting device](#votingdevice) will wait for detectibl
 \#vvsg
 ## <a name="alternativeformat"></a>alternative format
 The [ballot](#ballot) or accompanying information is said to be in an [alternative format](#alternativeformat) if it is presented in non-standard [ballot](#ballot) language and format. Examples include, but are not limited to, languages other than English, Braille, ASCII text, large print, recorded audio.
+The [ballot](#ballot) or accompanying information is said to be in an alternative format if it is presented in non-standard ballot language and format. Examples include, but are not limited to, languages other than English, Braille, [ASCII] text, large print, [recorded](#record) audio.
 
 \#vvsg
 ## <a name="appropriatemark"></a>appropriate mark
@@ -89,7 +93,7 @@ A [device](#device) that improves or maintains the capabilities of people with d
 
 \#vvsg
 ## <a name="asymmetriccryptography"></a>asymmetric cryptography
-[Encryption](#encryption) system that uses a public and [private key](#privatekey) pair for cryptographic operation. The [private key](#privatekey) is generally stored in a user's [digital certificate](#digitalcertificate) and used typically to encrypt or digitally sign data. The [public key](#publickey) is used typically to decrypt the data or verify its [digital signatures](#digitalsignature). The keys could be used interchangeably as needed, that is, a [public key](#publickey) can be used to encrypt data and the [private key](#privatekey) can be used to decrypt the data.
+[Encryption](#encryption) system that uses a public and [private key](#privatekey) pair for cryptographic operation. The private key is generally stored in a user's [digital certificate](#digitalcertificate) and used typically to encrypt or digitally sign data. The [public key](#publickey) is used typically to decrypt the data or verify its [digital signatures](#digitalsignature). The keys could be used interchangeably as needed, that is, a public key can be used to encrypt data and the private key can be used to decrypt the data.
 
 \#vvsg
 ## <a name="audioformat"></a>audio format
@@ -98,16 +102,16 @@ A [ballot display format](#ballotdisplayformat) in which [contest options](#cont
 \#vvsg
 ## <a name="audit"></a>audit
 1. Systematic, independent, documented process for obtaining [records](#record), statements of fact, or other relevant information and assessing them objectively to determine the extent to which specified requirements are fulfilled.
-2. Verification of statistical or exact agreement of [records](#record) from different processes or subsystems of a [voting system](#votingsystem).
+2. Verification of statistical or exact agreement of records from different processes or subsystems of a [voting system](#votingsystem).
 3. A review of a system and its controls to determine its operational status and the accuracy of its outputs.
 
 \#vvsg
 ## <a name="auditdevice"></a>audit device
-[Voting device](#votingdevice) dedicated exclusively to [independently](#independently) verifying or assessing the voting system's performance.
+[Voting device](#votingdevice) dedicated exclusively to [independently](#independently) verifying or assessing the [voting system](#votingsystem)'s performance.
 
 \#vvsg
 ## <a name="audittrail"></a>audit trail
-Information recorded during [election](#election) activities to reconstruct steps followed or to later verify actions taken with respect to the [voting system](#votingsystem).
+Information [recorded](#record) during [election](#election) activities to reconstruct steps followed or to later verify actions taken with respect to the [voting system](#votingsystem).
 
 \#vvsg
 ## <a name="authentication"></a>authentication
@@ -121,7 +125,7 @@ Presentation of the [contest options](#contestoption) for a particular [voter](#
 ## <a name="ballotcountinglogic"></a>ballot counting logic
 The software logic that
  - defines the combinations of [contest selections](#contestselection) that are valid and invalid on a given [ballot](#ballot) and,
- - determines how the [contest selections](#contestselection) are totaled in a given [election](#election).
+ - determines how the contest selections are totaled in a given [election](#election).
 
 \#vvsg
 ## <a name="ballotdata"></a>ballot data
@@ -133,11 +137,11 @@ The concrete presentation of the contents of a [ballot](#ballot) appropriate to 
 
 \#vvsg
 ## <a name="ballotimage"></a>ballot image
-Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A [ballot image](#ballotimage) might be a transient logical representation of the [votes](#vote) or an archival [record](#record) (a [cast vote record](#castvoterecord)).
+Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A ballot image might be a transient logical representation of the votes or an archival record (a [cast vote record](#castvoterecord)).
 
 \#vvsg
 ## <a name="ballotinstructions"></a>ballot instructions
-Information provided to the [voter](#voter) that describes the procedure for marking the [ballot](#ballot). This information may appear directly on the paper or electronic [ballot](#ballot) or may be provided separately.
+Information provided to the [voter](#voter) that describes the procedure for marking the [ballot](#ballot). This information may appear directly on the paper or electronic ballot or may be provided separately.
 
 \#vvsg
 ## <a name="ballotmanifest"></a>ballot manifest
@@ -148,11 +152,11 @@ A catalog prepared by [election officials](#electionofficial) listing all the ph
 A [device](#device) that:
  - permits [contest options](#contestoption) to be reviewed on an electronic interface,
  - produces a human-readable [paper ballot](#paperballot), and
- - does not make any other lasting [record](#record) of the voter's selections.
+ - does not make any other lasting [record](#record) of the [voter](#voter)'s selections.
 
 \#vvsg
 ## <a name="ballotmarkingtargetarea"></a>ballot marking target area
-An area defined on a [ballot](#ballot) that [voters](#voter) use to indicate their selections when marking the issued [ballot](#ballot).
+An area defined on a [ballot](#ballot) that [voters](#voter) use to indicate their selections when marking the issued ballot.
 
 \#vvsg
 ## <a name="ballotmeasure"></a>ballot measure
@@ -164,10 +168,10 @@ A [contest option](#contestoption) that specifies a response to a [ballot measur
 
 \#vvsg
 ## <a name="ballotondemandÂ®"></a>ballot on demandÂ®
-A process that produces a [paper ballot](#paperballot) of the required [ballot style](#ballotstyle) that meets a specific voter's needs. The use of this process requires:
- - a system with a printer that can create a tabulatable [paper ballot](#paperballot); and
- - a [device](#device) driving the printer that has all the data needed to print each [ballot style](#ballotstyle) and allows selection of the needed style.
- Note: "ballot on demand" is a registered trademark of ES&S.
+A process that produces a [paper ballot](#paperballot) of the required [ballot style](#ballotstyle) that meets a specific [voter](#voter)'s needs. The use of this process requires:
+ - a system with a printer that can create a tabulatable paper ballot; and
+ - a [device](#device) driving the printer that has all the data needed to print each ballot style and allows selection of the needed style.
+ Note: "[ballot](#ballot) on demand" is a registered trademark of [ES&S].
 
 \#vvsg
 ## <a name="ballotproduction"></a>ballot production
@@ -175,20 +179,20 @@ Process of generating [ballots](#ballot) for presentation to [voters](#voter), f
 
 \#vvsg
 ## <a name="ballotrotation"></a>ballot rotation
-The process of varying the order of listed [candidates](#candidate) within a [contest](#contest). This allows each [candidate](#candidate) to appear first on the list of [candidates](#candidate) an approximately equal number of times across different [ballot styles](#ballotstyle) or jurisdictions.
+The process of varying the order of listed [candidates](#candidate) within a [contest](#contest). This allows each [candidate](#candidate) to appear first on the list of candidates an approximately equal number of times across different [ballot styles](#ballotstyle) or jurisdictions.
 
 \#vvsg
 ## <a name="ballotstyle"></a>ballot style
-[Ballot data](#ballotdata) that has been put into [contest](#contest) order for a particular [precinct](#precinct) and considers a particular set of [voter](#voter) situations. [Voter](#voter) situations include party [affiliation](#affiliation) (for closed primaries), and age of the [voter](#voter) (in states that permit 17-year-olds to [vote](#vote) in [primary elections](#primaryelection)), among others.
+[Ballot data](#ballotdata) that has been put into [contest](#contest) order for a particular [precinct](#precinct) and considers a particular set of [voter](#voter) situations. [Voter](#voter) situations include party [affiliation](#affiliation) (for [closed primaries](#closedprimary)), and age of the voter (in states that permit 17-year-olds to [vote](#vote) in [primary elections](#primaryelection)), among others.
 
 \#vvsg
 ## <a name="barcode"></a>barcode
-An optical, machine-readable representation of data as a sequence of bars and spaces that conform to accepted [standards](#standard). Linear (1d) [barcode](#barcode) [standards](#standard) include UPC, EAN and 128. QR is an example of a 2d [barcode](#barcode) [standard](#standard).
+An optical, machine-readable representation of data as a sequence of bars and spaces that conform to accepted [standards](#standard). Linear (1d) barcode standards include [UPC], [EAN] and [128](#128.0). QR is an example of a 2d barcode [standard](#standard).
 
 \#vvsg
 ## <a name="barcodereader"></a>barcode reader
 [Device](#device) used to scan [barcodes](#barcode) and convert the encoded information into a usable format.
- [Barcode readers](#barcodereader) are used to scan codes on a variety of [election](#election) materials including [ballots](#ballot), driver's licenses, [voter](#voter) ID cards, [voter](#voter) information packets, envelopes, and other [election](#election) documents.
+ [Barcode readers](#barcodereader) are used to scan codes on a variety of [election](#election) materials including [ballots](#ballot), driver's licenses, [voter](#voter) ID cards, voter information packets, envelopes, and other election documents.
 
 \#vvsg
 ## <a name="batch"></a>batch
@@ -198,12 +202,12 @@ A collection of [paper ballots](#paperballot) gathered as a group for tabulation
 ## <a name="batchfedscanner"></a>batch fed scanner
 A [ballot](#ballot) processing [device](#device) that:
  - accepts stacks of hand-marked or BMD-produced [paper ballots](#paperballot) and automatically processes them until the stack is empty;
- - is usually used at an [election](#election) jurisdiction's central location;
+ - is usually used at an [election jurisdiction](#electionjurisdiction)'s central location;
  - is mostly commonly used to process absentee or mail [ballots](#ballot);
- - usually has input and output hoppers for [ballots](#ballot);
- - scans a [ballot](#ballot) and rejects it if either unreadable or un-processable;
+ - usually has input and output hoppers for ballots;
+ - scans a ballot and rejects it if either unreadable or un-processable;
  - detects, interprets, and validates [contest selections](#contestselection);
- - detects and sorts (either digitally or physically) [ballots](#ballot) that are unreadable or un-processable, or that contain undeterminable selections, marking exceptions, or write-ins; and
+ - detects and sorts (either digitally or physically) ballots that are unreadable or un-processable, or that contain undeterminable selections, marking exceptions, or write-ins; and
  - [tabulates](#tabulate) and [reports](#report) [contest](#contest) results as required.
  This unit was previously referred to as central count optical scanner or CCOS.
 
@@ -221,7 +225,7 @@ An issued [ballot](#ballot) without any selections made.
 
 \#vvsg
 ## <a name="candidate"></a>candidate
-Person contending in a [contest](#contest) for [office](#office). A [candidate](#candidate) may be explicitly presented as one of the [contest options](#contestoption) or may be a write-in [candidate](#candidate).
+Person contending in a [contest](#contest) for [office](#office). A candidate may be explicitly presented as [one](#1.0) of the [contest options](#contestoption) or may be a write-in candidate.
 
 \#vvsg
 ## <a name="candidateoption"></a>candidate option
@@ -249,7 +253,7 @@ Archival tabulatable [record](#record) of all [votes](#vote) produced by a singl
 
 \#vvsg
 ## <a name="certificationtesting"></a>certification testing
-Testing of a [voting system](#votingsystem) performed by a testing authority (such as the [EAC](#EAC) or a state) to ensure that the system meets the requirements defined in the [standards](#standard) being tested against in the manner specified in its product documentation.
+[Testing](#test) of a [voting system](#votingsystem) performed by a testing authority (such as the [EAC] or a state) to ensure that the system meets the requirements defined in the [standards](#standard) being [tested](#test) against in the manner specified in its product documentation.
 
 \#vvsg
 ## <a name="Ciphertext"></a>Ciphertext
@@ -257,11 +261,11 @@ Data or information in its encrypted form.
 
 \#vvsg
 ## <a name="closedprimary"></a>closed primary
-[Primary election](#primaryelection) in which the [voter](#voter) receives a [ballot](#ballot) containing only those [party-specific contests](#party-specificcontest) pertaining to the political party with which the [voter](#voter) is affiliated, along with [non-party-specific contests](#non-party-specificcontest) presented at the same [election](#election). Unaffiliated [voters](#voter) may be permitted to [vote](#vote) only on [non-party-specific contests](#non-party-specificcontest).
+[Primary election](#primaryelection) in which the [voter](#voter) receives a [ballot](#ballot) containing only those [party-specific contests](#party-specificcontest) pertaining to the political party with which the voter is affiliated, along with [non-party-specific contests](#non-party-specificcontest) presented at the same [election](#election). Unaffiliated [voters](#voter) may be permitted to [vote](#vote) only on non-party-specific contests.
 
 \#vvsg
 ## <a name="combinedprecinct"></a>combined precinct
-Two or more [precincts](#precinct) treated as a single [precinct](#precinct) for a specific [election](#election).
+[Two](#>=2.0) or more [precincts](#precinct) treated as a single [precinct](#precinct) for a specific [election](#election).
 
 \#vvsg
 ## <a name="commercial-off-the-shelf"></a>commercial-off-the-shelf
@@ -274,8 +278,8 @@ Two or more [precincts](#precinct) treated as a single [precinct](#precinct) for
 \#vvsg
 ## <a name="CommonIndustryFormat"></a>Common Industry Format
 Format used for [usability](#usability) [test](#test) reporting.
- The format is described in ISO/IEC 25062:2006 "Common Industry Format (CIF) for [Usability](#usability) [Test](#test) [Reports](#report)," one of a group of [usability](#usability) [standards](#standard).
- CIF is the format required for [usability](#usability) [test](#test) reporting.
+ The format is described in ISO/IEC [25062:2006] "Common Industry Format (CIF) for [Usability](#usability) [Test](#test) Reports," [one](#1.0) of a group of usability [standards](#standard).
+ CIF is the format required for usability test reporting.
 
 \#vvsg
 ## <a name="component"></a>component
@@ -287,7 +291,7 @@ Prevention of unauthorized disclosure of information.
 
 \#vvsg
 ## <a name="configurationmanagement"></a>configuration management
-A continuous process of recording and maintaining consistent and reliable [records](#record) pertaining to an organization's [hardware](#hardware) and software composition, including software version control and [hardware](#hardware) updates.
+A continuous process of recording and maintaining consistent and reliable [records](#record) pertaining to an organization's [hardware](#hardware) and software composition, including software version control and hardware updates.
 
 \#vvsg
 ## <a name="conformance"></a>conformance
@@ -295,7 +299,7 @@ Fulfilling specified requirements by a product, process, or service.
 
 \#vvsg
 ## <a name="conformancetesting"></a>conformance testing
-Process of testing [device](#device) or system of [devices](#device) against the requirements specified in one or more [standards](#standard). The outcomes of a [conformance](#conformance) [test](#test) are generally a pass or fail result, possibly including [reports](#report) of problems encountered during the execution.
+Process of testing [device](#device) or system of [devices](#device) against the requirements specified in [one](#>=1.0) or more [standards](#standard). The outcomes of a [conformance](#conformance) [test](#test) are generally a pass or fail result, possibly including [reports](#report) of problems encountered during the execution.
 
 \#vvsg
 ## <a name="contest"></a>contest
@@ -307,7 +311,7 @@ A votable choice that appears under a [contest](#contest).
 
 \#vvsg
 ## <a name="contestoptionposition"></a>contest option position
-A specified area on a [ballot](#ballot) where a voter's selection in a particular [contest](#contest) can be indicated.
+A specified area on a [ballot](#ballot) where a [voter](#voter)'s selection in a particular [contest](#contest) can be indicated.
 
 \#vvsg
 ## <a name="contestoptionvote"></a>contest option vote
@@ -332,7 +336,7 @@ A [read ballot](#readballot) that has been processed and whose [votes](#vote) ar
 
 \#vvsg
 ## <a name="cross-partyendorsement"></a>cross-party endorsement
-[Endorsement](#endorsement) of a single [candidate](#candidate) or slate of [candidates](#candidate) by more than one political party. The [candidate](#candidate) or slate appears on the [ballot](#ballot) representing each endorsing political party.
+[Endorsement](#endorsement) of a single [candidate](#candidate) or slate of [candidates](#candidate) by more than [one](#>1.0) political party. The candidate or slate appears on the [ballot](#ballot) representing each endorsing political party.
 
 \#vvsg
 ## <a name="cryptographicend-to-endvotingsystem"></a>cryptographic end-to-end voting system
@@ -352,7 +356,7 @@ Discipline that embodies the principles, means, and methods for transforming dat
 
 \#vvsg
 ## <a name="cumulativevoting"></a>cumulative voting
-A voting method used in [multi-seat contests](#multi-seatcontest) where a [voter](#voter) is permitted to distribute allowed selections to 1 or more [candidates](#candidate) in whole [vote](#vote) increments.
+A voting method used in [multi-seat contests](#multi-seatcontest) where a [voter](#voter) is permitted to distribute allowed selections to [1](#>=1.0) or more [candidates](#candidate) in whole [vote](#vote) increments.
 
 \#vvsg
 ## <a name="cybersecurity"></a>cybersecurity
@@ -376,7 +380,7 @@ Physical apparatus and any supporting supplies, materials, and logic that togeth
 
 \#vvsg
 ## <a name="digitalcertificate"></a>digital certificate
-A data set used to identify the holder of the certification and to verify, using a PKI, the authenticity of the certificate. It typically includes the holder's [private key](#privatekey) and is used for cryptographic operations such as digitally signing or encrypting data.
+A data set used to identify the holder of the certification and to verify, using a [PKI], the authenticity of the certificate. It typically includes the holder's [private key](#privatekey) and is used for cryptographic operations such as digitally signing or encrypting data.
 
 \#vvsg
 ## <a name="digitalsignature"></a>digital signature
@@ -388,7 +392,7 @@ A [voting device](#votingdevice) that allows:
  - electronic presentation of a [ballot](#ballot),
  - electronic selection of valid [contest options](#contestoption), and
  - electronic storage of [contest selections](#contestselection) as individual [records](#record).
- It also provides a summary of these [contest selections](#contestselection).
+ It also provides a summary of these contest selections.
 
 \#vvsg
 ## <a name="dynamicpassword"></a>dynamic password
@@ -396,7 +400,7 @@ A password that changes at a defined interval or event.
 
 \#vvsg
 ## <a name="EAC"></a>EAC
-[Election](#election) Assistance Commission, created by the [Help America Vote Act](#HelpAmericaVoteAct) (HAVA) to assist the states regarding HAVA compliance and to distribute HAVA funds to the states. The [EAC](#EAC) is also charged with creating [voting system](#votingsystem) guidelines and operating the federal government's first [voting system](#votingsystem) certification program. The [EAC](#EAC) is also responsible for maintaining the National [Voter](#voter) Registration form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve [elections](#election).
+[Election Assistance Commission], created by the [Help America Vote Act](#HelpAmericaVoteAct) (HAVA) to assist the states regarding [HAVA] compliance and to distribute HAVA funds to the states. The EAC is also charged with creating [voting system](#votingsystem) guidelines and operating the federal government's [first](#1.0) voting system certification program. The EAC is also responsible for maintaining the [National Voter Registration] form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve elections.
 
 \#vvsg
 ## <a name="earlyvoting"></a>early voting
@@ -412,16 +416,16 @@ An [office](#office) that is filled primarily or exclusively via [election](#ele
 
 \#vvsg
 ## <a name="election"></a>election
-A formal process in which qualified [voters](#voter) select [candidates](#candidate) to fill [seats](#seat) in one or more [offices](#office) and/or [vote](#vote) on one or more proposed [ballot measures](#ballotmeasure).
+A formal process in which qualified [voters](#voter) select [candidates](#candidate) to fill [seats](#seat) in [one](#>=1.0) or more [offices](#office) and/or [vote](#vote) on one or more proposed [ballot measures](#ballotmeasure).
 
 \#vvsg
 ## <a name="electioncertification"></a>election certification
-The act of confirming the final official results of a jurisdiction's [election](#election). This event occurs after results from valid [ballots](#ballot) are tallied from all sources (election day, absentee, early [vote](#vote), provisional, etc.) and results are validated and approved by those legally responsible.
+The act of confirming the final official results of a jurisdiction's [election](#election). This event occurs after results from valid [ballots](#ballot) are tallied from all sources ([election day](#electionday), absentee, early [vote](#vote), provisional, etc.) and results are validated and approved by those legally responsible.
 
 \#vvsg
 ## <a name="electionday"></a>election day
-The last day on which [voters](#voter) may [cast](#cast) a [ballot](#ballot).
- Absentee [votes](#vote) and early [votes](#vote) may be [cast](#cast) in advance of [election day](#electionday).
+The last [day](#D) on which [voters](#voter) may [cast](#cast) a [ballot](#ballot).
+ Absentee [votes](#vote) and early votes may be cast in advance of election day.
 
 \#vvsg
 ## <a name="electiondefinition"></a>election definition
@@ -429,7 +433,7 @@ Data used in defining an [election](#election), including [election districts](#
 
 \#vvsg
 ## <a name="electiondefinitionmedium"></a>election definition medium
-Programmed memory [device](#device) containing all applicable [election definition](#electiondefinition) data required by the [election system](#electionsystem) [component](#component) where the [device](#device) will be used.
+Programmed memory [device](#device) containing all applicable [election definition](#electiondefinition) data required by the [election system](#electionsystem) [component](#component) where the device will be used.
 
 \#vvsg
 ## <a name="electiondistrict"></a>election district
@@ -444,35 +448,35 @@ A geographical area to which a practical authority has been granted to administe
 Set of processing functions and databases within a [voting system](#votingsystem) typically used to:
  - develop and maintain [election definition](#electiondefinition) data,
  - perform [ballot](#ballot) layout functions,
- - create [ballot](#ballot) presentation templates for [ballot](#ballot) printers or [devices](#device) used by [voters](#voter) for [ballot](#ballot) markup,
+ - create ballot presentation templates for ballot printers or [devices](#device) used by [voters](#voter) for ballot markup,
  - count [votes](#vote),
  - consolidate and [report](#report) results, and
  - maintain [audit trails](#audittrail).
 
 \#vvsg
 ## <a name="electionofficial"></a>election official
-Any person who is involved with administering or conducting an [election](#election), including government personnel and temporary [election workers](#electionworker). This may include any county clerk and recorder, [election](#election) judge, member of a canvassing board, central [election official](#electionofficial), [election day](#electionday) worker, member of a board of county commissioners, member or secretary of a board of directors authorized to conduct public [elections](#election), representative of a governing body, or other person engaged in the performance of [election](#election) duties as required by the [election](#election) code.
+Any person who is involved with administering or conducting an [election](#election), including government personnel and temporary [election workers](#electionworker). This may include any county clerk and recorder, election judge, member of a [canvassing](#canvass) board, central election official, [election day](#electionday) worker, member of a board of county commissioners, member or secretary of a board of directors authorized to conduct public [elections](#election), representative of a governing body, or other person engaged in the performance of election duties as required by the election code.
 
 \#vvsg
 ## <a name="electionprogramming"></a>election programming
-Process by which [election officials](#electionofficial) or their designees use [voting system software](#votingsystemsoftware) to create the [election definition](#electiondefinition) and configure all [election definition](#electiondefinition) media for use in a specific [election](#election).
+Process by which [election officials](#electionofficial) or their designees use [voting](#vote) system software to create the [election definition](#electiondefinition) and configure all election definition media for use in a specific [election](#election).
 
 \#vvsg
 ## <a name="ElectionResultsReportingSystem"></a>Election Results Reporting System
 A system that:
  - aggregates and displays [election](#election) results across the jurisdiction,
  - can be real-time or near real-time,
- - can provide a variety of formats for displaying [election](#election) results, and
+ - can provide a variety of formats for displaying election results, and
  - may provide direct feeds for the media.
 
 \#vvsg
 ## <a name="electionsystem"></a>election system
-1. A technology-based system that is used to collect, process, and store data related to [elections](#election) and [election](#election) administration. In addition to [voter](#voter) registration systems and public [election](#election) websites, [election systems](#electionsystem) include [voting systems](#votingsystem) (the means through which [voters](#voter) [cast](#cast) their [ballots](#ballot)), [vote](#vote) tabulation systems, [election](#election) night reporting systems, and auditing systems.
-2. Entire array of procedures, people, resources, equipment, and locations associated with conducting [elections](#election). 
+1. A technology-based system that is used to collect, process, and store data related to [elections](#election) and [election](#election) administration. In addition to [voter](#voter) registration systems and public election websites, [election systems](#electionsystem) include [voting](#vote) systems (the means through which [voters](#voter) [cast](#cast) their [ballots](#ballot)), [vote](#vote) tabulation systems, election [night](#N) [reporting](#report) systems, and auditing systems.
+2. Entire array of procedures, people, resources, equipment, and locations associated with conducting elections. 
 
 \#vvsg
 ## <a name="electionworker"></a>election worker
-Any person who interacts with those coming to [vote](#vote). This includes any poll worker, [election day](#electionday) worker, [early voting](#earlyvoting) worker, or other temporary staff engaged in supporting the voting or [vote](#vote) counting process.
+Any person who interacts with those coming to [vote](#vote). This includes any poll worker, [election day](#electionday) worker, [early voting](#earlyvoting) worker, or other temporary staff engaged in supporting the voting or vote counting process.
 
 \#vvsg
 ## <a name="electronicballotdelivery"></a>electronic ballot delivery
@@ -480,11 +484,11 @@ The delivery of [ballot](#ballot) and [voter](#voter) information packets electr
 
 \#vvsg
 ## <a name="electronicballotinterface"></a>electronic ballot interface
-Subsystem within a [voting system](#votingsystem) which communicates [ballot](#ballot) information to a [voter](#voter) in video, audio, or other [alternative format](#alternativeformat) which allows the [voter](#voter) to select [contest options](#contestoption) using vocalization or physical actions.
+Subsystem within a [voting system](#votingsystem) which communicates [ballot](#ballot) information to a [voter](#voter) in video, audio, or other [alternative format](#alternativeformat) which allows the voter to select [contest options](#contestoption) using vocalization or physical actions.
 
 \#vvsg
 ## <a name="electronicballotreturn"></a>electronic ballot return
-The return of a voted [ballot](#ballot) or [voter](#voter) information packet using electronic means. This can be by fax, email, or through the use of an Internet supported application. Sometimes referred to as "Internet Voting."
+The return of a [voted](#vote) [ballot](#ballot) or [voter](#voter) information packet using electronic means. This can be by fax, email, or through the use of an Internet supported application. Sometimes referred to as "Internet Voting."
 
 \#vvsg
 ## <a name="electronicdevice"></a>electronic device
@@ -492,23 +496,23 @@ The return of a voted [ballot](#ballot) or [voter](#voter) information packet us
 
 \#vvsg
 ## <a name="electronicpollbook"></a>electronic poll book
-[Device](#device) that partially automates the process of checking in [voters](#voter), assigning them the correct [ballot style](#ballotstyle), and marking [voters](#voter) who have been issued a [ballot](#ballot). May be used in place of a traditional paper poll book. E-poll books can be stand alone at the [precinct](#precinct) with a separate copy of the registration list or can be networked into a central [voter](#voter) registration system. They can check and update [voter](#voter) [records](#record) in real time.
+[Device](#device) that partially automates the process of checking in [voters](#voter), assigning them the correct [ballot style](#ballotstyle), and marking voters who have been issued a [ballot](#ballot). May be used in place of a traditional paper poll book. E-poll books can be stand alone at the [precinct](#precinct) with a separate copy of the registration list or can be networked into a central [voter](#voter) registration system. They can check and update voter [records](#record) in real time.
 
 \#vvsg
 ## <a name="electronicvoterinterface"></a>electronic voter interface
-[Component](#component) of an electronic [vote-capture device](#vote-capturedevice) that communicates [ballot](#ballot) information to the [voter](#voter) and accepts [contest selection](#contestselection) input from the [voter](#voter).
+[Component](#component) of an electronic [vote-capture device](#vote-capturedevice) that communicates [ballot](#ballot) information to the [voter](#voter) and accepts [contest selection](#contestselection) input from the voter.
 
 \#vvsg
 ## <a name="eligiblevoters"></a>eligible voters
-The universe of all [voters](#voter) who, if they [cast](#cast) a [ballot](#ballot), would have the legal right to have eligible [contests](#contest) on that [ballot](#ballot) counted. This would include those who do not appear in the list of [eligible voters](#eligiblevoters) because they live in a same-day registration or no registration state and did not or could not register ahead of time.
+The universe of all [voters](#voter) who, if they [cast](#cast) a [ballot](#ballot), would have the legal right to have eligible [contests](#contest) on that ballot counted. This would include those who do not appear in the list of eligible voters because they live in a same-day registration or no registration state and did not or could not register ahead of time.
 
 \#vvsg
 ## <a name="encryption"></a>encryption
-Cryptographic process of transforming data (called "plaintext") into a form (called "ciphertext") that conceals the data's original meaning to prevent it from being known or used. [Encryption](#encryption) provides [confidentiality](#confidentiality) protection.
+Cryptographic process of transforming data (called "plaintext") into a form (called "[ciphertext](#Ciphertext)") that conceals the data's original meaning to prevent it from being known or used. [Encryption](#encryption) provides [confidentiality](#confidentiality) protection.
 
 \#vvsg
 ## <a name="endorsement"></a>endorsement
-Approval by a political party, for example, as the [candidate](#candidate) that the party fields in a particular [contest](#contest) or as the [candidate](#candidate) that should receive straight party [votes](#vote). In some states, more than one party may endorse a [candidate](#candidate) or [contest option](#contestoption).
+Approval by a political party, for example, as the [candidate](#candidate) that the party fields in a particular [contest](#contest) or as the candidate that should receive straight party [votes](#vote). In some states, more than [one](#>1.0) party may endorse a candidate or [contest option](#contestoption).
 
 \#vvsg
 ## <a name="enhancedvisualformat"></a>enhanced visual format
@@ -528,7 +532,7 @@ An attack on a system where the attacker is using some means to bypass [security
 
 \#vvsg
 ## <a name="exhaustedballot"></a>exhausted ballot
-Refers to processing a [ranked choice voting](#rankedchoicevoting) [contest](#contest) on a [cast ballot](#castballot), when that [ballot](#ballot) becomes inactive and cannot be advanced in the tabulation for a [contest](#contest) because there are no further valid rankings on the [ballot](#ballot) for continuing [contest options](#contestoption).
+Refers to processing a [ranked choice voting](#rankedchoicevoting) [contest](#contest) on a [cast ballot](#castballot), when that [ballot](#ballot) becomes inactive and cannot be advanced in the tabulation for a contest because there are no further valid rankings on the ballot for continuing [contest options](#contestoption).
 
 \#vvsg
 ## <a name="expectedmark"></a>expected mark
@@ -540,16 +544,16 @@ A text-based language used to organize and present information on the World Wide
 
 \#vvsg
 ## <a name="extraneousmark"></a>extraneous mark
-A mark on a [paper ballot](#paperballot) that appears to be unrelated to the act of indicating a voter's selection. Examples include:
-  a mark made unintentionally by a [voter](#voter) that is obviously not related to making a selection; a hesitation mark, a dot within or outside of the target area made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voter's selection; or printing defects.
+A mark on a [paper ballot](#paperballot) that appears to be unrelated to the act of indicating a [voter](#voter)'s selection. Examples include:
+  a mark made unintentionally by a voter that is obviously not related to making a selection; a hesitation mark, a dot within or outside of the target area made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voter's selection; or printing defects.
 
 \#vvsg
 ## <a name="failure"></a>failure
-Looking at [voting system](#votingsystem) reliability, a [failure](#failure) is an event that results in:
- - loss of one or more functions,
- - degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than 10 seconds,
+Looking at [voting](#vote) system reliability, a failure is an event that results in:
+ - loss of [one] or more functions,
+ - degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than [10 seconds],
  - automatic reset, restart, or reboot of the [voting device](#votingdevice), operating system or application software, requiring an unanticipated intervention by a person in the role of [election worker](#electionworker) or technician before normal operation can continue, or
- - error messages or [audit](#audit) log entries indicating that a [failure](#failure) has occurred.
+ - error messages or [audit](#audit) log entries indicating that a failure has occurred.
 
 \#vvsg
 ## <a name="failurerate"></a>failure rate
@@ -565,7 +569,7 @@ A system that continues to operate after the [failure](#failure) of a computer o
 
 \#vvsg
 ## <a name="FederalInformationProcessingStandards"></a>Federal Information Processing Standards
-[Standards](#standard) for federal computer systems developed by NIST. These [standards](#standard) are developed when there are no existing industry [standards](#standard) to address federal requirements for system [interoperability](#interoperability), portability of data and software, and computer security.
+Standards for federal computer systems developed by [NIST]. These [standards](#standard) are developed when there are no existing industry standards to address federal requirements for system [interoperability](#interoperability), portability of data and software, and computer security.
 
 \#vvsg
 ## <a name="finding"></a>finding
@@ -573,19 +577,19 @@ A system that continues to operate after the [failure](#failure) of a computer o
 
 \#vvsg
 ## <a name="firewall"></a>firewall
-A gateway system designed to prevent unauthorized access to a private network or intranet that is connected to the internet. A [firewall](#firewall) can be implemented in either [hardware](#hardware) or software, or a combination of both.
+A gateway system designed to prevent unauthorized access to a private network or intranet that is connected to the internet. A firewall can be implemented in either [hardware](#hardware) or software, or a combination of both.
 
 \#vvsg
 ## <a name="firmware"></a>firmware
-A specific class of software encoded directly into a [hardware](#hardware) [device](#device) that controls its defined functions and provides the low-level control for the computer's specific [hardware](#hardware) (such as the [firmware](#firmware) that initially boots an operating system).
+A specific class of software encoded directly into a [hardware](#hardware) [device](#device) that controls its defined functions and provides the low-level control for the computer's specific hardware (such as the firmware that initially boots an operating system).
 
 \#vvsg
 ## <a name="FunctionalConfigurationAudit"></a>Functional Configuration Audit
-Exhaustive verification of every system function and combination of functions cited in the manufacturer's documentation. The FCA verifies the accuracy and completeness of the system's [Voter](#voter) Manual, Operations Procedures, Maintenance Procedures, and Diagnostic Testing Procedures.
+Exhaustive verification of every system function and combination of functions cited in the [manufacturer](#manufacturer)'s documentation. The [FCA] verifies the accuracy and completeness of the system's [Voter](#voter) Manual, Operations Procedures, Maintenance Procedures, and Diagnostic Testing Procedures.
 
 \#vvsg
 ## <a name="functionaltest"></a>functional test
-[Test](#test) performed to verify or validate the accomplishment of one or more functions.
+[Test](#test) performed to verify or validate the accomplishment of [one](#>=1.0) or more functions.
 
 \#vvsg
 ## <a name="generalelection"></a>general election
@@ -605,7 +609,7 @@ The physical, tangible, mechanical, or electromechanical [components](#component
 
 \#vvsg
 ## <a name="HelpAmericaVoteAct"></a>Help America Vote Act
-Act passed by the U.S. Congress in 2002 to make sweeping reforms to the nation's [voting process](#votingprocess). HAVA addresses improvements to [voting systems](#votingsystem) and [voter](#voter) access that were identified following the 2000 [election](#election).
+Act passed by the [U.S. Congress] in [2002](#2002.0) to make sweeping reforms to the nation's [voting process](#votingprocess). [HAVA] addresses improvements to [voting](#vote) systems and [voter](#voter) access that were identified following the [2000](#2000.0) [election](#election).
 
 \#vvsg
 ## <a name="implementationstatement"></a>implementation statement
@@ -649,15 +653,15 @@ Activities involving handling of [cryptographic keys](#cryptographickey) and oth
 
 \#vvsg
 ## <a name="lifecycle"></a>life cycle
-Systems engineering concept that identifies the phases that a system passes through, from concept to retirement. There are different concerns and activities associated with each phase of the [life cycle](#lifecycle).
+Systems engineering concept that identifies the phases that a system passes through, from concept to retirement. There are different concerns and activities associated with each phase of the life cycle.
 
 \#vvsg
 ## <a name="locality"></a>locality
-Generic term used in [election](#election) contexts to signify a jurisdiction such as a [town](#town), village or city contained within a jurisdiction administering an [election](#election), such as a county.
+Generic term used in [election](#election) contexts to signify a jurisdiction such as a [town](#town), village or city contained within a jurisdiction administering an election, such as a county.
 
 \#vvsg
 ## <a name="logicandaccuracytesting"></a>logic and accuracy testing
-Equipment and system readiness [tests](#test) whose purpose is to detect malfunctioning [devices](#device) and improper election-specific setup before the equipment or systems are used in an [election](#election). [Election](#election) personnel conduct L&A [tests](#test) prior to the start of an [election](#election) as part of the process of setting up the system and the [devices](#device) for an [election](#election) according to jurisdiction practices and conforming to any state laws.
+Equipment and system readiness [tests](#test) whose purpose is to detect malfunctioning [devices](#device) and improper election-specific setup before the equipment or systems are used in an [election](#election). [Election](#election) personnel conduct L&A tests prior to the start of an election as part of the process of setting up the system and the devices for an election according to jurisdiction practices and conforming to any state laws.
 
 \#vvsg
 ## <a name="logicdefect"></a>logic defect
@@ -669,19 +673,19 @@ Condition signifying that, for a given input, a computer program will satisfy th
 
 \#vvsg
 ## <a name="low/nodexteritymode"></a>low/no dexterity mode
-An [interaction mode](#interactionmode) with [accessibility](#accessibility) features for [voters](#voter) with no use of one or both hands or low dexterity.
+An [interaction mode](#interactionmode) with [accessibility](#accessibility) features for [voters](#voter) with no use of [one](#1.0) or both hands or low dexterity.
 
 \#vvsg
 ## <a name="machineunreadablemark"></a>machine unreadable mark
-Mark in a [contest selection](#contestselection) position of a [paper ballot](#paperballot) that cannot be detected as readable or marginal by a scanner, and may require human [adjudication](#adjudication).
+[Mark] in a [contest selection](#contestselection) position of a [paper ballot](#paperballot) that cannot be detected as readable or marginal by a scanner, and may require human [adjudication](#adjudication).
 
 \#vvsg
 ## <a name="machine-readablemark"></a>machine-readable mark
-Mark in a [contest selection](#contestselection) position of a [paper ballot](#paperballot) that meets requirements for detection by a scanner.
+[Mark] in a [contest selection](#contestselection) position of a [paper ballot](#paperballot) that meets requirements for detection by a scanner.
 
 \#vvsg
 ## <a name="malware"></a>malware
-Software or [firmware](#firmware) intended to perform an unauthorized process that will have adverse impact on the [confidentiality](#confidentiality), integrity, or availability of a system. For example, a virus, worm, Trojan horse, or other code-based entity that infects a host. Spyware and some forms of adware are also examples of [malware](#malware).
+Software or [firmware](#firmware) intended to perform an unauthorized process that will have adverse impact on the [confidentiality](#confidentiality), integrity, or availability of a system. For example, a virus, worm, Trojan horse, or other code-based entity that infects a host. Spyware and some forms of adware are also examples of malware.
 
 \#vvsg
 ## <a name="manually-markedpaperballot"></a>manually-marked paper ballot
@@ -697,11 +701,11 @@ An intentional mark in a [contest selection](#contestselection) position of a [p
 
 \#vvsg
 ## <a name="markedballot"></a>marked ballot
-[Ballot](#ballot) that contains all of a voter's selections.
+[Ballot](#ballot) that contains all of a [voter](#voter)'s selections.
 
 \#vvsg
 ## <a name="militaryvoter"></a>military voter
-A member of a uniformed service in active service, including army, navy, air force, marine corps, coast guard and merchant marine, and their spouses and dependents.
+A member of a uniformed service in active service, including army, navy, air force, marine corps, [coast guard] and merchant marine, and their spouses and dependents.
 
 \#vvsg
 ## <a name="misfeedrate"></a>misfeed rate
@@ -713,7 +717,7 @@ A structural unit of a software program that serves a specific function for the 
 
 \#vvsg
 ## <a name="multi-factorauthentication"></a>multi-factor authentication
-[Authentication](#authentication) mechanism requiring two or more of the following:
+[Authentication](#authentication) mechanism requiring [two](#>=2.0) or more of the following:
  - something you know (such as a password),
  - something you have (such as a [token](#token)),
  - something you are (for example, biometric [authentication](#authentication)).
@@ -728,16 +732,16 @@ Term as used in [election](#election) contexts to signify a jurisdiction such as
 
 \#vvsg
 ## <a name="N-of-M"></a>N-of-M
-Voting method in which the [voter](#voter) is entitled to allocate a fixed number of [votes](#vote) (N) over a list of M [contest options](#contestoption) or [write-in options](#write-inoption), with the constraint that at most 1 [vote](#vote) may be allocated to a given [contest option](#contestoption). This usually occurs when multiple [seats](#seat) are concurrently being filled in a governing body such as a city council or school board where [candidates](#candidate) contend for at-large [seats](#seat). The [voter](#voter) is not obliged to allocate all N [votes](#vote).
- 1-of-M is [N-of-M](#N-of-M) voting where N = 1.
+Voting method in which the [voter](#voter) is entitled to allocate a fixed number of [votes](#vote) (N) over a list of M [contest options](#contestoption) or [write-in options](#write-inoption), with the constraint that at most [1](#<1.0) [vote](#vote) may be allocated to a given [contest option](#contestoption). This usually occurs when multiple [seats](#seat) are concurrently being filled in a governing body such as a city council or school board where [candidates](#candidate) contend for at-large seats. The voter is not obliged to allocate all N votes.
+ 1-of-M is N-of-M voting where N = 1.
 
 \#vvsg
 ## <a name="nationalcertificationtestreport"></a>national certification test report
-[Report](#report) of the results of independent testing of a [voting system](#votingsystem) by a [Voting System Test Lab](#VotingSystemTestLab) (VSTL) delivered to the [EAC](#EAC) with a recommendation about granting a certification number.
+[Report](#report) of the results of independent testing of a [voting system](#votingsystem) by a [Voting System Test Lab](#VotingSystemTestLab) (VSTL) delivered to the [EAC] with a recommendation about granting a certification number.
 
 \#vvsg
 ## <a name="NationalInstituteofStandardsandTechnology"></a>National Institute of Standards and Technology
-Federal organization tasked with assisting in the development of [voting system](#votingsystem) [standards](#standard). NIST develops and maintains [standards](#standard) for a wide array of technologies. NIST scientists assist the [EAC](#EAC) in developing testable [standards](#standard) for [voting systems](#votingsystem).
+Federal organization tasked with assisting in the development of [voting system](#votingsystem) [standards](#standard). [NIST] develops and maintains standards for a wide array of technologies. NIST scientists assist the [EAC] in developing testable standards for [voting](#vote) systems.
 
 \#vvsg
 ## <a name="non-party-specificcontest"></a>non-party-specific contest
@@ -761,12 +765,12 @@ Memory in which information can be stored indefinitely with no external power ap
 
 \#vvsg
 ## <a name="noticeofclarification"></a>notice of clarification
-Document providing further guidance and explanation on the requirements and procedures of the EAC's [Voting System](#votingsystem) Certification or [Voting System](#votingsystem) Testing Laboratory (VSTL) programs. NOCs may be issued in response to a clarification request from an [EAC](#EAC) [voting system](#votingsystem) [test](#test) laboratory or an [EAC](#EAC) registered [manufacturer](#manufacturer). [EAC](#EAC) may also issue NOCs when it determines general clarifications are necessary.
+Document providing further guidance and explanation on the requirements and procedures of the [EAC]'s [Voting System](#votingsystem) Certification or Voting System Testing Laboratory (VSTL) programs. NOCs may be issued in response to a clarification request from an EAC [voting system](#votingsystem) [test](#test) laboratory or an EAC registered [manufacturer](#manufacturer). EAC may also issue NOCs when it determines general clarifications are necessary.
 
 \#vvsg
 ## <a name="observationaltest"></a>observational test
 Operational [test](#test) conducted on [voting devices](#votingdevice) during an [election](#election) by real [voters](#voter) to establish confidence that the [voter](#voter) verified paper [record](#record) is produced correctly when [assistive technology](#assistivetechnology) is used.
- [Devices](#device) subjected to observational testing are used for normal collection of [votes](#vote); the [votes](#vote) collected are included in the [election](#election) tally.
+ Devices subjected to observational testing are used for normal collection of [votes](#vote); the votes collected are included in the election tally.
 
 \#vvsg
 ## <a name="office"></a>office
@@ -774,7 +778,7 @@ A position established by law with certain associated rights and duties.
 
 \#vvsg
 ## <a name="openprimary"></a>open primary
-[Primary election](#primaryelection) in which the [voter](#voter) may choose a political party at the time of voting and [vote](#vote) in [party-specific contests](#party-specificcontest) associated with that party, along with [non-party-specific contests](#non-party-specificcontest) presented at the same [election](#election). Some states require [voters](#voter) to publicly declare their choice of party at the [polling place](#pollingplace), after which the [election worker](#electionworker) provides or activates the appropriate [ballot](#ballot). Other states allow the [voters](#voter) to make their choice of party within the [privacy](#privacy) of the voting booth.
+[Primary election](#primaryelection) in which the [voter](#voter) may choose a political party at the time of voting and [vote](#vote) in [party-specific contests](#party-specificcontest) associated with that party, along with [non-party-specific contests](#non-party-specificcontest) presented at the same [election](#election). Some states require [voters](#voter) to publicly declare their choice of party at the [polling place](#pollingplace), after which the [election worker](#electionworker) provides or activates the appropriate [ballot](#ballot). Other states allow the voters to make their choice of party within the [privacy](#privacy) of the voting booth.
 
 \#vvsg
 ## <a name="opensource"></a>open source
@@ -782,15 +786,15 @@ Computer software with its [source code](#sourcecode) (human readable code) made
  - be developed in a collaborative public manner;
  - be reviewed by multiple professional and amateur programmers;
  - require a fee and be licensed like other software;
- - be fully [open source](#opensource) or may have only a portion of the software [open source](#opensource).
+ - be fully open source or may have only a portion of the software open source.
 
 \#vvsg
 ## <a name="opticalscan"></a>optical scan
-[Voting system](#votingsystem) that counts [votes](#vote) recorded by marks made in [contest option positions](#contestoptionposition) on the surface of a [paper ballot](#paperballot).
+[Voting system](#votingsystem) that counts [votes](#vote) [recorded](#record) by marks made in [contest option positions](#contestoptionposition) on the surface of a [paper ballot](#paperballot).
 
 \#vvsg
 ## <a name="overseasvoter"></a>overseas voter
-A U.S. citizen who is living outside of the United States and is eligible to [vote](#vote) in their last place of residence in the United States.
+A [U.S.] citizen who is living outside of the [United States] and is eligible to [vote](#vote) in their last place of residence in the United States.
 
 \#vvsg
 ## <a name="overvote"></a>overvote
@@ -806,7 +810,7 @@ A single piece of paper that forms part of a [paper ballot](#paperballot). [Pape
 
 \#vvsg
 ## <a name="paperballotside"></a>paper ballot side
-The face of a [paper ballot sheet](#paperballotsheet). A [paper ballot](#paperballot) may have two sides.
+The face of a [paper ballot sheet](#paperballotsheet). A [paper ballot](#paperballot) may have [two](#2.0) sides.
 
 \#vvsg
 ## <a name="partisanoffice"></a>partisan office
@@ -818,11 +822,11 @@ The face of a [paper ballot sheet](#paperballotsheet). A [paper ballot](#paperba
 
 \#vvsg
 ## <a name="party-specificcontest"></a>party-specific contest
-[Contest](#contest) where eligibility to [vote](#vote) in that [contest](#contest) is restricted based on political party [affiliation](#affiliation) or lack of any [affiliation](#affiliation). The [affiliation](#affiliation) might be the registered [affiliation](#affiliation) of the [voter](#voter) or it might be an [affiliation](#affiliation) declared at the time of voting.
+[Contest](#contest) where eligibility to [vote](#vote) in that [contest](#contest) is restricted based on political party [affiliation](#affiliation) or lack of any affiliation. The affiliation might be the registered affiliation of the [voter](#voter) or it might be an affiliation declared at the time of voting.
 
 \#vvsg
 ## <a name="patternvoting"></a>pattern voting
-Selecting [contest options](#contestoption) across multiple [contests](#contest) in a predetermined pattern intending to signal one's identity to someone else. The possibility of [pattern voting](#patternvoting) can be an issue for publishing [Cast Vote Records](#castvoterecord) (CVR) because it may compromise [voter](#voter) [privacy](#privacy) if there are enough selections in each published CVR to make it likely a selection pattern might be unique.
+Selecting [contest options](#contestoption) across multiple [contests](#contest) in a predetermined pattern intending to signal one's identity to someone else. The possibility of pattern voting can be an issue for publishing [Cast](#cast) [Vote](#vote) Records ([CVR]) because it may compromise [voter](#voter) [privacy](#privacy) if there are enough selections in each published CVR to make it likely a selection pattern might be unique.
 
 \#vvsg
 ## <a name="penetrationtesting"></a>penetration testing
@@ -840,7 +844,7 @@ Any information about an individual maintained by an agency, including:
 
 \#vvsg
 ## <a name="PhysicalConfigurationAudit"></a>Physical Configuration Audit
-[Inspection](#inspection) by a [voting system test lab](#VotingSystemTestLab) (VSTL) that compares the [voting system](#votingsystem) [components](#component) submitted for [certification testing](#certificationtesting) to the manufacturer's technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the tested [components](#component).
+[Inspection](#inspection) by a [voting system test lab](#VotingSystemTestLab) (VSTL) that compares the [voting system](#votingsystem) [components](#component) submitted for [certification testing](#certificationtesting) to the [manufacturer](#manufacturer)'s technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the [tested](#test) components.
 
 \#vvsg
 ## <a name="politicalsubdivision"></a>political subdivision
@@ -852,13 +856,13 @@ Physical address of a [polling place](#pollingplace).
 
 \#vvsg
 ## <a name="pollingplace"></a>polling place
-Location at which [voters](#voter) may [cast](#cast) in-person [ballots](#ballot) under the supervision of [election workers](#electionworker) during one or more specific time periods.
+Location at which [voters](#voter) may [cast](#cast) in-person [ballots](#ballot) under the supervision of [election workers](#electionworker) during [one](#>=1.0) or more specific time periods.
 
 \#vvsg
 ## <a name="post-electionaudit"></a>post-election audit
-Hand-counting [votes](#vote) on paper [records](#record), then comparing those counts to the corresponding [vote](#vote) counts originally reported:
+Hand-counting [votes](#vote) on paper [records](#record), then comparing those counts to the corresponding [vote](#vote) counts originally [reported](#report):
  -  as a check on the accuracy of [election](#election) results, and
- - to resolve discrepancies using accurate hand counts of the paper [records](#record) as the [benchmark](#benchmark).
+ - to resolve discrepancies using accurate hand counts of the paper records as the [benchmark](#benchmark).
 
 \#vvsg
 ## <a name="precinct"></a>precinct
@@ -866,11 +870,11 @@ Hand-counting [votes](#vote) on paper [records](#record), then comparing those c
 
 \#vvsg
 ## <a name="precinctcount"></a>precinct count
-Counting [ballots](#ballot) in the same [precinct](#precinct) in which those [ballots](#ballot) have been [cast](#cast).
+[Counting ballots](#countedballot) in the same [precinct](#precinct) in which those [ballots](#ballot) have been [cast](#cast).
 
 \#vvsg
 ## <a name="precinctsplit"></a>precinct split
-A subdivision of a [precinct](#precinct) which arises when a [precinct](#precinct) is split by two or more [election districts](#electiondistrict) that may require different [ballot styles](#ballotstyle).
+A subdivision of a [precinct](#precinct) which arises when a precinct is split by [two](#>=2.0) or more [election districts](#electiondistrict) that may require different [ballot styles](#ballotstyle).
 
 \#vvsg
 ## <a name="presentableballotstyle"></a>presentable ballot style
@@ -886,11 +890,11 @@ A subdivision of a [precinct](#precinct) which arises when a [precinct](#precinc
 
 \#vvsg
 ## <a name="privacy"></a>privacy
-The ability to prevent others from determining how an individual voted.
+The ability to prevent others from determining how an individual [voted](#vote).
 
 \#vvsg
 ## <a name="privacyenclosure"></a>privacy enclosure
-Equipment, such as a booth or partition, provided in conjunction with a [vote-capture device](#vote-capturedevice) to make it difficult for anyone other than the [voter](#voter) to determine through visual observation how the [voter](#voter) voted and whether they used [alternative formats](#alternativeformat).
+Equipment, such as a booth or partition, provided in conjunction with a [vote-capture device](#vote-capturedevice) to make it difficult for anyone other than the [voter](#voter) to determine through visual observation how the voter [voted](#vote) and whether they used [alternative formats](#alternativeformat).
 
 \#vvsg
 ## <a name="privatekey"></a>private key
@@ -906,11 +910,11 @@ The secret part of an asymmetric key pair that is typically used to verify, digi
 
 \#vvsg
 ## <a name="proportionalvoting"></a>proportional voting
-A voting method used in [multi-seat contests](#multi-seatcontest) where the [votes](#vote) allowed in the [contest](#contest) are distributed to the selected [candidates](#candidate) proportionally depending on the number of selections. This may result in [candidates](#candidate) receiving fractional [votes](#vote).
+A voting method used in [multi-seat contests](#multi-seatcontest) where the [votes](#vote) allowed in the [contest](#contest) are distributed to the selected [candidates](#candidate) proportionally depending on the number of selections. This may result in candidates receiving fractional votes.
 
 \#vvsg
 ## <a name="provisionalballot"></a>provisional ballot
-A failsafe [ballot](#ballot) provided to a [voter](#voter) whose eligibility for a regular [ballot](#ballot) cannot be immediately determined. The [ballot](#ballot) may be counted or further processed depending on state law.
+A failsafe [ballot](#ballot) provided to a [voter](#voter) whose eligibility for a regular ballot cannot be immediately determined. The ballot may be counted or further processed depending on state law.
 
 \#vvsg
 ## <a name="publickey"></a>public key
@@ -926,18 +930,18 @@ An abbreviated logic and accuracy [test](#test) of voting equipment, pre-announc
 
 \#vvsg
 ## <a name="QRCode"></a>QR Code
-Quick Response Code. A 2-D, trademarked bar code. Some [voting systems](#votingsystem) will encode the voter's selections in a [QR Code](#QRCode) that can be read on a scanner in the [precinct](#precinct) and converted to a printed [ballot](#ballot).
+Quick Response Code. A 2-D, trademarked bar code. Some [voting systems](#votingsystem) will encode the [voter](#voter)'s selections in a QR Code that can be read on a scanner in the [precinct](#precinct) and converted to a printed [ballot](#ballot).
 
 \#vvsg
 ## <a name="rangevoting"></a>range voting
-A voting method for single-seat [contests](#contest), in which [voters](#voter) give each [candidate](#candidate) a score, the scores are added (or averaged), and the [candidate](#candidate) with the highest total is elected.
+A voting method for single-seat [contests](#contest), in which [voters](#voter) give each [candidate](#candidate) a score, the scores are added (or averaged), and the candidate with the highest total is elected.
 
 \#vvsg
 ## <a name="rankedchoicevoting"></a>ranked choice voting
 A set of [election](#election) methods:
  - which allow each [voter](#voter) to rank [contest options](#contestoption) in order of the voter's preference,
- - in which [votes](#vote) are counted in rounds using a series of runoff tabulations to defeat [contest options](#contestoption) with the fewest [votes](#vote), and,
- - which elects a winner with a majority of final round [votes](#vote) in a single-winner [contest](#contest) and provides proportional representation in multi-winner [contests](#contest).
+ - in which [votes](#vote) are counted in rounds using a series of runoff tabulations to defeat contest options with the fewest votes, and,
+ - which elects a winner with a majority of final round votes in a single-winner [contest](#contest) and provides proportional representation in multi-winner [contests](#contest).
 
 \#vvsg
 ## <a name="readballot"></a>read ballot
@@ -945,7 +949,7 @@ A set of [election](#election) methods:
 
 \#vvsg
 ## <a name="recallissuewithoptions"></a>recall issue with options
-Voting method that allows [voters](#voter) to remove elected representatives from [office](#office) before their terms of [office](#office) expire. The recall may involve not only the question of whether a particular officer should be removed, but also the question of naming a successor in the event that there is an affirmative [vote](#vote) for the recall.
+Voting method that allows [voters](#voter) to remove elected representatives from [office](#office) before their terms of office expire. The recall may involve not only the question of whether a particular officer should be removed, but also the question of naming a successor in the event that there is an affirmative [vote](#vote) for the recall.
 
 \#vvsg
 ## <a name="recallableballot"></a>recallable ballot
@@ -953,12 +957,12 @@ Voting method that allows [voters](#voter) to remove elected representatives fro
 
 \#vvsg
 ## <a name="recertification"></a>recertification
-Re-examination, and possibly retesting, of a [voting system](#votingsystem) that was modified after being previously certified. The object of [recertification](#recertification) is to determine if the system as modified still conforms to the requirements.
+Re-examination, and possibly retesting, of a [voting system](#votingsystem) that was modified after being previously certified. The object of recertification is to determine if the system as modified still conforms to the requirements.
 
 \#vvsg
 ## <a name="record"></a>record
 (n) Preserved evidence of activities performed or results achieved (for example, forms, [reports](#report), [test](#test) results).
- (v) To create a [record](#record).
+ (v) To create a record.
 
 \#vvsg
 ## <a name="recordedballot"></a>recorded ballot
@@ -974,15 +978,15 @@ Self-contained, time-stamped, archival [record](#record), such as a printout or 
 
 \#vvsg
 ## <a name="reporttotalerrorrate"></a>report total error rate
-Ratio of the [report](#report) total error to the [report](#report) total volume.
+Ratio of the [report](#report) total error to the report total volume.
 
 \#vvsg
 ## <a name="reportingunit"></a>reporting unit
-Geographical area in which reported totals or counts are reported (for example, a jurisdiction, [precinct](#precinct), or [election district](#electiondistrict)).
+Geographical area in which [reported](#report) totals or counts are reported (for example, a jurisdiction, [precinct](#precinct), or [election district](#electiondistrict)).
 
 \#vvsg
 ## <a name="reproducibility"></a>reproducibility
-Ability to obtain the same [test](#test) results by using the same [test method](#testmethod) on identical [test](#test) items in different testing laboratories with different operators using different equipment.
+Ability to obtain the same [test](#test) results by using the same [test method](#testmethod) on identical test items in different testing laboratories with different operators using different equipment.
 
 \#vvsg
 ## <a name="residualvote"></a>residual vote
@@ -998,11 +1002,11 @@ The process of identifying the risks to system security and determining the prob
 
 \#vvsg
 ## <a name="risk-limitingaudit"></a>risk-limiting audit
-Procedure for checking a sample of [ballots](#ballot) (or voter-verifiable [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the reported outcome if the reported outcome is wrong (that is, if a full hand count would reveal an outcome different from the reported outcome).
+Procedure for checking a sample of [ballots](#ballot) (or voter-verifiable [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the [reported](#report) outcome if the reported outcome is wrong (that is, if a full hand count would reveal an outcome different from the reported outcome).
 
 \#vvsg
 ## <a name="runoffelection"></a>runoff election
-[Election](#election) to select a winner following a primary or a [general election](#generalelection), in which no [candidate](#candidate) in the [contest](#contest) received the required minimum percentage of the [votes](#vote) [cast](#cast). The two [candidates](#candidate) receiving the most [votes](#vote) for the [contest](#contest) in question proceed to a [runoff election](#runoffelection).
+[Election](#election) to select a winner following a primary or a [general election](#generalelection), in which no [candidate](#candidate) in the [contest](#contest) received the required minimum percentage of the [votes](#vote) [cast](#cast). The [two](#2.0) [candidates](#candidate) receiving the most votes for the contest in question proceed to a runoff election.
 
 \#vvsg
 ## <a name="seat"></a>seat
@@ -1010,7 +1014,7 @@ An [elected office](#electedoffice) position that a single officeholder may occu
 
 \#vvsg
 ## <a name="secondchancevoting"></a>second chance voting
-Feature of a [voter facing scanner](#voterfacingscanner) that reviews the [ballot](#ballot) for possible marking mistakes, informs the [voter](#voter), and presents an opportunity to [cast](#cast) as-is or return the [ballot](#ballot).
+Feature of a [voter facing scanner](#voterfacingscanner) that reviews the [ballot](#ballot) for possible marking mistakes, informs the [voter](#voter), and presents an opportunity to [cast](#cast) as-is or return the ballot.
 
 \#vvsg
 ## <a name="securityanalysis"></a>security analysis
@@ -1038,11 +1042,11 @@ A targeted attack by hackers, using bogus emails, that attempts to get the victi
 
 \#vvsg
 ## <a name="specialelection"></a>special election
-Primary or [general election](#generalelection) that is not regularly scheduled. A [special election](#specialelection) may be combined with a scheduled [election](#election).
+Primary or [general election](#generalelection) that is not regularly scheduled. A special election may be combined with a scheduled [election](#election).
 
 \#vvsg
 ## <a name="spoil"></a>spoil
-(A [ballot](#ballot)) To mark or otherwise alter a [ballot](#ballot) so it indicates in a human-readable manner that the [ballot](#ballot) is not to be [cast](#cast).
+(A [ballot](#ballot)) To mark or otherwise alter a ballot so it indicates in a human-readable manner that the ballot is not to be [cast](#cast).
 
 \#vvsg
 ## <a name="spoiledballot"></a>spoiled ballot
@@ -1063,7 +1067,7 @@ Mechanism that allows [voters](#voter) to [cast](#cast) a single [vote](#vote) t
 
 \#vvsg
 ## <a name="streetsegmentdata"></a>street segment data
-The portion of a street between two consecutive cross streets that can be assigned to a [precinct](#precinct).
+The portion of a street between [two](#2.0) consecutive cross streets that can be assigned to a [precinct](#precinct).
 
 \#vvsg
 ## <a name="supportsoftware"></a>support software
@@ -1075,7 +1079,7 @@ Software that aids in developing, maintaining, or using other software, for exam
 
 \#vvsg
 ## <a name="systemextent"></a>system extent
-Administrative unit that is the entire scope within which the [voting system](#votingsystem) is used (for example, a county). The [system extent](#systemextent) corresponds to the top-level reporting context for which the system generates [reports](#report).
+Administrative unit that is the entire scope within which the [voting system](#votingsystem) is used (for example, a county). The system extent corresponds to the top-level reporting context for which the system generates [reports](#report).
 
 \#vvsg
 ## <a name="t-coil"></a>t-coil
@@ -1088,7 +1092,7 @@ Process of totaling [votes](#vote).
 \#vvsg
 ## <a name="tactilecontrols"></a>tactile controls
 [Tactile controls](#tactilecontrols) are discernable or perceptible by touch using hands, feet, or other parts of the body. (Does not include touch screens.)
- Dual switches are a form of [tactile controls](#tactilecontrols) that can be used by [voters](#voter) with minimal use of their hands.
+ Dual switches are a form of tactile controls that can be used by [voters](#voter) with minimal use of their hands.
 
 \#vvsg
 ## <a name="technicaldatapackage"></a>technical data package
@@ -1096,7 +1100,7 @@ Process of totaling [votes](#vote).
 
 \#vvsg
 ## <a name="test"></a>test
-Procedure used to determine one or more characteristics of a given product, process, or service according to a specified procedure for conformity assessment. A [test](#test) may be an operational [test](#test) or a non-operating [test](#test) (for example, an [inspection](#inspection)).
+Procedure used to determine [one](#>=1.0) or more characteristics of a given product, process, or service according to a specified procedure for conformity assessment. A test may be an operational test or a non-operating test (for example, an [inspection](#inspection)).
 
 \#vvsg
 ## <a name="testdeck"></a>test deck
@@ -1108,15 +1112,15 @@ Specified technical procedure for performing a [test](#test), procedures by whic
 
 \#vvsg
 ## <a name="testplan"></a>test plan
-Document created prior to testing that outlines the scope and nature of testing, items to be tested, [test](#test) approach, resources needed to perform testing, [test](#test) tasks, risks, and schedule.
+Document created prior to testing that outlines the scope and nature of testing, items to be [tested](#test), [test](#test) approach, resources needed to perform testing, test tasks, risks, and schedule.
 
 \#vvsg
 ## <a name="testsuite"></a>test suite
-Implementation of a set of operational [tests](#test) for a particular object (such as a specific [voting system](#votingsystem)) or class of objects (such as all [voting systems](#votingsystem) that can interpret the language in which the [test](#test) data are expressed).
+Implementation of a set of operational [tests](#test) for a particular object (such as a specific [voting system](#votingsystem)) or class of objects (such as all [voting](#vote) systems that can interpret the language in which the [test](#test) data are expressed).
 
 \#vvsg
 ## <a name="third-partylogic"></a>third-party logic
-Software, [firmware](#firmware), or hardwired logic that is neither application logic nor COTS. This includes, for example, general-purpose software developed by a third party that is either customized (for example, ported to a new platform, as is Windows Embedded Compact), not widely used, or source-code generated by a COTS package.
+Software, [firmware](#firmware), or hardwired logic that is neither application logic nor COTS. This includes, for example, general-purpose software developed by a [third](#3.0) party that is either customized (for example, ported to a new platform, as is Windows Embedded Compact), not widely used, or source-code generated by a COTS package.
 
 \#vvsg
 ## <a name="token"></a>token
@@ -1128,31 +1132,31 @@ A voting machine that utilizes a computer screen to display the [ballot](#ballot
 
 \#vvsg
 ## <a name="town"></a>town
-An urban area that has a name, defined boundaries, and local government, and that is generally larger than a village and smaller than a city. Term used in New England, New York, and Wisconsin to refer to the equivalent of the civil [township](#township) in these states.
+An urban area that has a name, defined boundaries, and local government, and that is generally larger than a village and smaller than a city. Term used in [New England], [New York], and [Wisconsin] to refer to the equivalent of the civil [township](#township) in these states.
 
 \#vvsg
 ## <a name="township"></a>township
-A widely used unit of local government in the United States, subordinate to a county, with some form of local government for which it generally conducts [elections](#election).
+A widely used unit of local government in the [United States], subordinate to a county, with some form of local government for which it generally conducts [elections](#election).
 
 \#vvsg
 ## <a name="undervote"></a>undervote
-Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that [contest](#contest) or when no selection is made. The number of [undervotes](#undervote) is equal to the number of [votes](#vote) lost, for example, if no selection is made in a [vote](#vote) for two [contest](#contest) the number of [votes](#vote) lost is two.
+Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of [undervotes](#undervote) is equal to the number of [votes](#vote) lost, for example, if no selection is made in a [vote](#vote) for [two](#2.0) contest the number of votes lost is two.
 
 \#vvsg
 ## <a name="UniformedandOverseasCitizensAbsenteeVotingAct"></a>Uniformed and Overseas Citizens Absentee Voting Act
-Act of Congress in 1986 requiring that the states and territories allow certain groups of citizens to register and [vote](#vote) absentee in [elections](#election) for Federal [offices](#office).
+Act of [Congress] in [1986](#1986.0) requiring that the states and territories allow certain groups of citizens to register and [vote](#vote) absentee in [elections](#election) for Federal [offices](#office).
 
 \#vvsg
 ## <a name="UOCAVAvoter"></a>UOCAVA voter
-An [overseas voter](#overseasvoter) or an active duty member of the U.S. military, either within or outside the United States, including any accompanying spouse and family members who are eligible to [vote](#vote) in their last place of residence in the United States. The [Uniformed and Overseas Citizens Absentee Voting Act](#UniformedandOverseasCitizensAbsenteeVotingAct) is commonly referred to as UOCAVA.
+An [overseas voter](#overseasvoter) or an active duty member of the [U.S.] military, either within or outside the [United States], including any accompanying spouse and family members who are eligible to [vote](#vote) in their last place of residence in the United States. The [Uniformed and Overseas Citizens Absentee Voting Act](#UniformedandOverseasCitizensAbsenteeVotingAct) is commonly referred to as UOCAVA.
 
 \#vvsg
 ## <a name="usability"></a>usability
-Effectiveness, efficiency, and satisfaction with which a specified set of users can achieve a specified set of tasks in a particular environment. [Usability](#usability) in the context of voting refers to [voters](#voter) being able to [cast](#cast) [valid votes](#validvote) as they intended quickly, without errors, and with confidence that their [contest selections](#contestselection) were recorded correctly. It also refers to the [usability](#usability) of the setup and operation of voting equipment in the [polling place](#pollingplace).
+Effectiveness, efficiency, and satisfaction with which a specified set of users can achieve a specified set of tasks in a particular environment. [Usability](#usability) in the context of [voting](#vote) refers to [voters](#voter) being able to [cast](#cast) [valid votes](#validvote) as they intended quickly, without errors, and with confidence that their [contest selections](#contestselection) were [recorded](#record) correctly. It also refers to the usability of the setup and operation of voting equipment in the [polling place](#pollingplace).
 
 \#vvsg
 ## <a name="usabilitytesting"></a>usability testing
-Testing that encompasses a range of methods that examine how users in the target audience actually interact with a system, in contrast to analytic techniques such as [usability](#usability) [inspection](#inspection).
+[Testing](#test) that encompasses a range of methods that examine how users in the target audience actually interact with a system, in contrast to analytic techniques such as [usability](#usability) [inspection](#inspection).
 
 \#vvsg
 ## <a name="user-serviceablefailure"></a>user-serviceable failure
@@ -1197,10 +1201,10 @@ Person permitted to [cast](#cast) a [ballot](#ballot).
 \#vvsg
 ## <a name="voterfacingscanner"></a>voter facing scanner
 A [ballot](#ballot) processing [device](#device) that:
- - accepts hand-marked or BMD-produced [paper ballots](#paperballot) one sheet at a time;
+ - accepts hand-marked or BMD-produced [paper ballots](#paperballot) [one](#1.0) sheet at a time;
  - is usually used for [in-person voting](#in-personvoting);
  - permits [election workers](#electionworker) to open and close the polls;
-  scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contestselection); notifies the [voter](#voter) of voting exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks; stores accepted [ballots](#ballot) in a secure container; sorts or otherwise marks [ballots](#ballot) or [ballot images](#ballotimage) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinctcount) optical scanner or PCOS.
+  scans a ballot and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contestselection); notifies the [voter](#voter) of [voting](#vote) exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks; stores accepted [ballots](#ballot) in a secure container; sorts or otherwise marks ballots or [ballot images](#ballotimage) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinctcount) optical scanner or PCOS.
 
 \#vvsg
 ## <a name="voterintent"></a>voter intent
@@ -1208,19 +1212,19 @@ A cognitive construct, formed by the [voter](#voter), that they attempt to expre
 
 \#vvsg
 ## <a name="voterintentstandard"></a>voter intent standard
-A [standard](#standard) for counting [ballots](#ballot) that aims to ensure that [ballots](#ballot) are counted in accordance with the goals of the [voter](#voter), using written rules for both human processes and machine algorithms to ensure that all [ballots](#ballot) marked in a similar way are counted in the same way.
+A [standard](#standard) for [counting ballots](#countedballot) that aims to ensure that [ballots](#ballot) are counted in accordance with the goals of the [voter](#voter), using written rules for both human processes and machine algorithms to ensure that all ballots marked in a similar way are counted in the same way.
 
 \#vvsg
 ## <a name="voterverifiable"></a>voter verifiable
-A [voting system](#votingsystem) feature that provides the [voter](#voter) an opportunity to verify that their [contest selections](#contestselection) are being recorded correctly before the [ballot](#ballot) is [cast](#cast).
+A [voting system](#votingsystem) feature that provides the [voter](#voter) an opportunity to verify that their [contest selections](#contestselection) are being [recorded](#record) correctly before the [ballot](#ballot) is [cast](#cast).
 
 \#vvsg
 ## <a name="voterverification"></a>voter verification
-Confirmation by the [voter](#voter) that all [votes](#vote) were recorded as the [voter](#voter) intended.
+Confirmation by the [voter](#voter) that all [votes](#vote) were [recorded](#record) as the voter intended.
 
 \#vvsg
 ## <a name="voterverifiedpaperaudittrail"></a>voter verified paper audit trail
-A paper document that the [voter](#voter) can review before officially casting their [ballot](#ballot).
+A paper document that the [voter](#voter) can review before officially [casting](#cast) their [ballot](#ballot).
 
 \#vvsg
 ## <a name="votingdevice"></a>voting device
@@ -1236,11 +1240,11 @@ A collection of activities including [ballot](#ballot) issuance, [voter](#voter)
 
 \#vvsg
 ## <a name="votingstation"></a>voting station
-The location within a [polling place](#pollingplace) where [voters](#voter) may [record](#record) their [votes](#vote). A [voting station](#votingstation) includes the area, location, booth, or enclosure where voting takes place.
+The location within a [polling place](#pollingplace) where [voters](#voter) may [record](#record) their [votes](#vote). A voting station includes the area, location, booth, or enclosure where voting takes place.
 
 \#vvsg
 ## <a name="votingsystem"></a>voting system
-Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to define [elections](#election) and [ballot styles](#ballotstyle), configure voting equipment, identify and validate voting equipment configurations, perform logic and accuracy [tests](#test), activate [ballots](#ballot), capture [votes](#vote), count [votes](#vote), reconcile [ballots](#ballot) needing special treatment, generate [reports](#report), transmit [election](#election) data, archive [election](#election) data, and [audit](#audit) [elections](#election).
+Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to define [elections](#election) and [ballot styles](#ballotstyle), configure voting equipment, identify and validate voting equipment configurations, perform logic and accuracy [tests](#test), activate [ballots](#ballot), capture [votes](#vote), count votes, reconcile ballots needing special treatment, generate [reports](#report), transmit [election](#election) data, archive election data, and [audit](#audit) elections.
 
 \#vvsg
 ## <a name="votingsystemsoftware"></a>voting system software
@@ -1248,11 +1252,11 @@ The executable code and associated configuration files needed for the proper ope
 
 \#vvsg
 ## <a name="VotingSystemTestLab"></a>Voting System Test Lab
-Privately owned testing laboratories that [test](#test) [voting systems](#votingsystem) (and other [election systems](#electionsystem)) for [conformance](#conformance) to the Voluntary [Voting System](#votingsystem) Guidelines (VVSG) or to other requirements, including individual state requirements. VSTLs are periodically reviewed for [conformance](#conformance) to National Voluntary Laboratory [Accreditation](#accreditation) Program (NVLAP) administered by the National Institute for [Standards](#standard) and Technology (NIST).
+Privately owned testing laboratories that [test](#test) [voting](#vote) systems (and other [election systems](#electionsystem)) for [conformance](#conformance) to the Voluntary [Voting System](#votingsystem) Guidelines (VVSG) or to other requirements, including individual state requirements. VSTLs are periodically reviewed for conformance to [National Voluntary Laboratory Accreditation Program] (NVLAP) administered by the [National Institute for Standards and Technology] ([NIST]).
 
 \#vvsg
 ## <a name="whiteboxtesting"></a>white box testing
-Testing based on an analysis of the internal structure of the [component](#component) or system.
+[Testing](#test) based on an analysis of the internal structure of the [component](#component) or system.
 
 \#vvsg
 ## <a name="Wi-Fi"></a>Wi-Fi
@@ -1268,6 +1272,6 @@ Network connectivity using radio waves instead of wire connections.
 
 \#vvsg
 ## <a name="write-inoption"></a>write-in option
-A type of [contest option](#contestoption) that allows a [voter](#voter) to specify a [candidate](#candidate), usually not already listed as a [contest option](#contestoption). Depending on jurisdiction rules, in some cases only previously approved names will be considered as valid write-in [contest selections](#contestselection). 
+A type of [contest option](#contestoption) that allows a [voter](#voter) to specify a [candidate](#candidate), usually not already listed as a contest option. Depending on jurisdiction rules, in some cases only previously approved names will be considered as valid write-in [contest selections](#contestselection). 
 
 \#vvsg
