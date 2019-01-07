@@ -1,5 +1,6 @@
 <!-- 
 MagicDraw Template for Markdown Glossary
+(c) 2019 Hilton Roscoe LLC
 -->
 # VVSGTerm Glossary
 ## <a name="absentee-ballot"></a>absentee ballot
@@ -72,7 +73,7 @@ The amount of time that a [voting device](#voting-device) will wait for detectib
 
 \#vvsg
 ## <a name="alternative-format"></a>alternative format
-The [ballot](#ballot) or accompanying information is said to be in an alternative format if it is presented in non-standard ballot language and format. Examples include, but are not limited to, languages other than English, Braille, ASCII text, large print, [recorded](#record) audio.
+The [ballot](#ballot) or accompanying information is said to be in an alternative format if it is presented in non-standard ballot language and format. Examples include, but are not limited to, languages other than English, Braille, ASCII text, large print, recorded audio.
 
 \#vvsg
 ## <a name="appropriate-mark"></a>appropriate mark
@@ -106,7 +107,7 @@ A [ballot display format](#ballot-display-format) in which [contest options](#co
 
 \#vvsg
 ## <a name="audit-device"></a>audit device
-[Voting device](#voting-device) dedicated exclusively to [independently](#independently) verifying or assessing the [voting system](#voting-system)'s performance.
+[Voting device](#voting-device) dedicated exclusively to independently verifying or assessing the [voting system](#voting-system)'s performance.
 
 \#vvsg
 ## <a name="audit-trail"></a>audit trail
@@ -166,7 +167,7 @@ A [contest option](#contest-option) that specifies a response to a [ballot measu
 A process that produces a [paper ballot](#paper-ballot) of the required [ballot style](#ballot-style) that meets a specific [voter](#voter)'s needs. The use of this process requires:
  - a system with a printer that can create a tabulatable paper ballot; and
  - a [device](#device) driving the printer that has all the data needed to print each ballot style and allows selection of the needed style.
- Note: "[ballot](#ballot) on demand" is a registered trademark of ES&S.
+ Note: "ballot on demand" is a registered trademark of ES&S.
 
 \#vvsg
 ## <a name="ballot-production"></a>ballot production
@@ -187,7 +188,7 @@ An optical, machine-readable representation of data as a sequence of bars and sp
 \#vvsg
 ## <a name="barcode-reader"></a>barcode reader
 [Device](#device) used to scan [barcodes](#barcode) and convert the encoded information into a usable format.
- [Barcode readers](#barcode-reader) are used to scan codes on a variety of [election](#election) materials including [ballots](#ballot), driver's licenses, [voter](#voter) ID cards, voter information packets, envelopes, and other election documents.
+ [Barcode readers](#barcode-reader) are used to scan codes on a variety of [election](#election) materials including [ballots](#ballot), driver's licenses, voter ID cards, voter information packets, envelopes, and other election documents.
 
 \#vvsg
 ## <a name="batch"></a>batch
@@ -335,7 +336,7 @@ A [read ballot](#read-ballot) that has been processed and whose [votes](#vote) a
 
 \#vvsg
 ## <a name="cryptographic-end-to-end-voting-system"></a>cryptographic end-to-end voting system
-A [voting system](#voting-system) that supports both [voter verification](#voter-verification) and [election](#election) verification.
+A [voting system](#voting-system) that supports both [voter verification](#voter-verification) and election verification.
 
 \#vvsg
 ## <a name="cryptographic-hash"></a>cryptographic hash
@@ -474,7 +475,7 @@ Any person who interacts with those coming to [vote](#vote). This includes any p
 
 \#vvsg
 ## <a name="electronic-ballot-delivery"></a>electronic ballot delivery
-The delivery of [ballot](#ballot) and [voter](#voter) information packets electronically. The MOVE Act requires each state to provide for the electronic delivery (via fax, email, or an Internet-supported application) of [ballots](#ballot) and related information from the local [election](#election) [office](#office) to the registered [UOCAVA voter](#UOCAVA-voter).
+The delivery of [ballot](#ballot) and [voter](#voter) information packets electronically. The MOVE Act requires each state to provide for the electronic delivery (via fax, email, or an Internet-supported application) of [ballots](#ballot) and related information from the local election office to the registered [UOCAVA voter](#UOCAVA-voter).
 
 \#vvsg
 ## <a name="electronic-ballot-interface"></a>electronic ballot interface
@@ -547,7 +548,7 @@ Looking at [voting system](#voting-system) reliability, a failure is an event th
  - loss of one or more functions,
  - degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than 10 seconds,
  - automatic reset, restart, or reboot of the [voting device](#voting-device), operating system or application software, requiring an unanticipated intervention by a person in the role of [election worker](#election-worker) or technician before normal operation can continue, or
- - error messages or [audit](#audit) log entries indicating that a failure has occurred.
+ - error messages or audit log entries indicating that a failure has occurred.
 
 \#vvsg
 ## <a name="failure-rate"></a>failure rate
@@ -579,7 +580,7 @@ A specific class of software encoded directly into a [hardware](#hardware) [devi
 
 \#vvsg
 ## <a name="Functional-Configuration-Audit"></a>Functional Configuration Audit
-Exhaustive verification of every system function and combination of functions cited in the [manufacturer](#manufacturer)'s documentation. The FCA verifies the accuracy and completeness of the system's [Voter](#voter) Manual, Operations Procedures, Maintenance Procedures, and Diagnostic Testing Procedures.
+Exhaustive verification of every system function and combination of functions cited in the [manufacturer](#manufacturer)'s documentation. The FCA verifies the accuracy and completeness of the system's Voter Manual, Operations Procedures, Maintenance Procedures, and Diagnostic Testing Procedures.
 
 \#vvsg
 ## <a name="functional-test"></a>functional test
@@ -591,7 +592,7 @@ Exhaustive verification of every system function and combination of functions ci
 
 \#vvsg
 ## <a name="Geographical-Information-System"></a>Geographical Information System
-A system designed to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data. GIS systems are used to validate voting district boundaries and may be integrated with the [voter](#voter) registration system.
+A system designed to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data. GIS systems are used to validate voting district boundaries and may be integrated with the voter registration system.
 
 \#vvsg
 ## <a name="Geopolitical-Unit"></a>Geopolitical Unit
@@ -875,7 +876,7 @@ Hand-counting [votes](#vote) on paper [records](#record), then comparing those c
 
 \#vvsg
 ## <a name="precinct-count"></a>precinct count
-[Counting ballots](#counted-ballot) in the same [precinct](#precinct) in which those [ballots](#ballot) have been [cast](#cast).
+Counting ballots in the same [precinct](#precinct) in which those [ballots](#ballot) have been [cast](#cast).
 
 \#vvsg
 ## <a name="precinct-split"></a>precinct split
@@ -1110,7 +1111,7 @@ Procedure used to determine one or more characteristics of a given product, proc
 
 \#vvsg
 ## <a name="test-deck"></a>test deck
-A set of [marked ballots](#marked-ballot) with a predetermined outcome. Used for [logic and accuracy testing](#logic-and-accuracy-testing) of a [voting system](#voting-system).
+A set of marked ballots with a predetermined outcome. Used for [logic and accuracy testing](#logic-and-accuracy-testing) of a [voting system](#voting-system).
 
 \#vvsg
 ## <a name="test-method"></a>test method
@@ -1198,7 +1199,7 @@ Voting style or feature, including but not limited to the following: [approval v
 
 \#vvsg
 ## <a name="vote-by-mail"></a>vote-by-mail
-Method of voting by which [eligible voters](#eligible-voters) are mailed [ballots](#ballot) and information packets by the local jurisdiction. [Voters](#voter) may be able to return their [marked ballots](#marked-ballot) by mail, bring them to an [election](#election) [office](#office), or drop them off in secure drop boxes.
+Method of voting by which [eligible voters](#eligible-voters) are mailed [ballots](#ballot) and information packets by the local jurisdiction. [Voters](#voter) may be able to return their [marked ballots](#marked-ballot) by mail, bring them to an election office, or drop them off in secure drop boxes.
 
 \#vvsg
 ## <a name="vote-capture-device"></a>vote-capture device
@@ -1214,7 +1215,7 @@ An electronic [voting device](#voting-device) that:
  - accepts hand-marked or BMD-produced [paper ballots](#paper-ballot) one sheet at a time;
  - is usually used for [in-person voting](#in-person-voting);
  - permits [election workers](#election-worker) to open and close the polls;
-  scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contest-selection); notifies the [voter](#voter) of [voting](#vote) exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks; stores accepted [ballots](#ballot) in a secure container; sorts or otherwise marks ballots or [ballot images](#ballot-image) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinct-count) optical scanner or PCOS.
+  scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contest-selection); notifies the [voter](#voter) of voting exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks; stores accepted [ballots](#ballot) in a secure container; sorts or otherwise marks ballots or [ballot images](#ballot-image) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinct-count) optical scanner or PCOS.
 
 \#vvsg
 ## <a name="voter-intent"></a>voter intent
@@ -1222,7 +1223,7 @@ A cognitive construct, formed by the [voter](#voter), that they attempt to expre
 
 \#vvsg
 ## <a name="voter-intent-standard"></a>voter intent standard
-A [standard](#standard) for [counting ballots](#counted-ballot) that aims to ensure that [ballots](#ballot) are counted in accordance with the goals of the [voter](#voter), using written rules for both human processes and machine algorithms to ensure that all ballots marked in a similar way are counted in the same way.
+A [standard](#standard) for counting ballots that aims to ensure that [ballots](#ballot) are counted in accordance with the goals of the [voter](#voter), using written rules for both human processes and machine algorithms to ensure that all ballots marked in a similar way are counted in the same way.
 
 \#vvsg
 ## <a name="voter-verifiable"></a>voter verifiable
@@ -1254,7 +1255,7 @@ The location within a [polling place](#polling-place) where [voters](#voter) may
 
 \#vvsg
 ## <a name="voting-system"></a>voting system
-Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to define [elections](#election) and [ballot styles](#ballot-style), configure voting equipment, identify and validate voting equipment configurations, perform logic and accuracy [tests](#test), activate [ballots](#ballot), capture [votes](#vote), count votes, reconcile ballots needing special treatment, generate [reports](#report), transmit [election](#election) data, archive election data, and [audit](#audit) elections.
+Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to define elections and [ballot styles](#ballot-style), configure voting equipment, identify and validate voting equipment configurations, perform logic and accuracy [tests](#test), activate [ballots](#ballot), capture [votes](#vote), count votes, reconcile ballots needing special treatment, generate [reports](#report), transmit election data, archive election data, and [audit](#audit) elections.
 
 \#vvsg
 ## <a name="voting-system-software"></a>voting system software
