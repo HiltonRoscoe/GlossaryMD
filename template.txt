@@ -1,5 +1,6 @@
 #import('text', 'com.nomagic.reportwizard.tools.TextTool')
 #import('hrsort', 'com.hiltonroscoe.mdreportext.Sorter')
+#import('hrlang', 'com.hiltonroscoe.mdreportext.NLPLanguage')
 #set($packages = $array.createArray())
 #set($void = $array.addCollection($packages, $Package))
 #set($void = $array.addCollection($packages, $SmartPackage))
@@ -17,37 +18,15 @@
 #set ($void = $enumerationList.add($element))
 #end
 #end
+<!-- 
+MagicDraw Template for Markdown Glossary
+(c) 2019 Hilton Roscoe LLC
+-->
 # $package.name Glossary
 #foreach ($class in $sorter.sort($classList))
-#[[##]]# <a name="$class.name.replaceAll("\s+","")"></a>$class.name
-#set ($docLink = " " + $class.documentation)
-#foreach ($termToMatch in $hrsort.sortByLength($classList))
-#if($termToMatch != $class)
 #set ($skipWords = $report.getStereotypeProperty($class, "glossaryEntry", "ignoreEntries"))
-#if(!$list.contains($skipWords, $termToMatch.name)) 
-#if ($UseNLP == "yes")
-#set ($matchedPhrases = $hrlang.findClassUsage($class.documentation.toLowerCase(), $termToMatch.name.toLowerCase(), true))
-#foreach($phrase in $matchedPhrases)
-#set ($searchRegex = "(?i) (\b$phrase#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])")
-#set ($replaceRegex = " [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3")
-#set ($docLink = $docLink.replaceAll($searchRegex,$replaceRegex))
-#end
-#else
-## USE Non-UseNLP
-#if($class.documentation.toLowerCase().contains($termToMatch.name.toLowerCase()))
-#set ($searchRegex = "(?i) (\b$termToMatch.name#[[(]]#es|s)?\b)([ .,;!\)])(?![^\[]*])")
-#set ($replaceRegex = " [$1](#$termToMatch.name.replaceAll(""\s+"",""""))$3")
-#if ($ReplaceMode == "all")
-#set ($docLink = $docLink.replaceAll($searchRegex, $replaceRegex))
-#else
-#set ($docLink = $docLink.replaceFirst($searchRegex, $replaceRegex))
-#end
-#end
-#end
-#end
-#end
-#end
-$docLink.substring(1)
+#[[##]]# <a name="$class.name.replaceAll("\s+","-")"></a>$class.name
+$hrlang.runNLP($class.documentation, $class.name, "$NERMappingFile", $skipWords)
 #set ($communities = $report.getStereotypeProperty($class, "glossaryEntry", "communities"))
 #if($communities)
 
