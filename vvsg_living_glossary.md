@@ -458,7 +458,7 @@ Any person who is involved with administering or conducting an [election](#elect
 
 \#vvsg
 ## <a name="election-programming"></a>election programming
-Process by which [election officials](#election-official) or their designees use [voting](#vote) system software to create the [election definition](#election-definition) and configure all election definition media for use in a specific [election](#election).
+Process by which [election officials](#election-official) or their designees use [voting system software](#voting-system-software) to create the [election definition](#election-definition) and configure all election definition media for use in a specific [election](#election).
 
 \#vvsg
 ## <a name="Election-Results-Reporting-System"></a>Election Results Reporting System
@@ -470,7 +470,7 @@ A system that:
 
 \#vvsg
 ## <a name="election-system"></a>election system
-1. A technology-based system that is used to collect, process, and store data related to [elections](#election) and [election](#election) administration. In addition to [voter](#voter) registration systems and public election websites, [election systems](#election-system) include [voting](#vote) systems (the means through which [voters](#voter) [cast](#cast) their [ballots](#ballot)), [vote](#vote) tabulation systems, election night [reporting](#report) systems, and auditing systems.
+1. A technology-based system that is used to collect, process, and store data related to [elections](#election) and [election](#election) administration. In addition to [voter](#voter) registration systems and public election websites, [election systems](#election-system) include [voting systems](#voting-system) (the means through which [voters](#voter) [cast](#cast) their [ballots](#ballot)), [vote](#vote) tabulation systems, election night [reporting](#report) systems, and auditing systems.
 2. Entire array of procedures, people, resources, equipment, and locations associated with conducting elections. 
 
 \#vvsg
@@ -548,7 +548,7 @@ A mark on a [paper ballot](#paper-ballot) that appears to be unrelated to the ac
 
 \#vvsg
 ## <a name="failure"></a>failure
-Looking at [voting](#vote) system reliability, a failure is an event that results in:
+Looking at [voting system](#voting-system) reliability, a failure is an event that results in:
  - loss of one or more functions,
  - degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than 10 seconds,
  - automatic reset, restart, or reboot of the [voting device](#voting-device), operating system or application software, requiring an unanticipated intervention by a person in the role of [election worker](#election-worker) or technician before normal operation can continue, or
@@ -608,7 +608,7 @@ The physical, tangible, mechanical, or electromechanical [components](#component
 
 \#vvsg
 ## <a name="Help-America-Vote-Act"></a>Help America Vote Act
-Act passed by the U.S. Congress in 2002 to make sweeping reforms to the nation's [voting process](#voting-process). HAVA addresses improvements to [voting](#vote) systems and [voter](#voter) access that were identified following the 2000 [election](#election).
+Act passed by the U.S. Congress in 2002 to make sweeping reforms to the nation's [voting process](#voting-process). HAVA addresses improvements to [voting systems](#voting-system) and [voter](#voter) access that were identified following the 2000 [election](#election).
 
 \#vvsg
 ## <a name="implementation-statement"></a>implementation statement
@@ -740,7 +740,7 @@ Voting method in which the [voter](#voter) is entitled to allocate a fixed numbe
 
 \#vvsg
 ## <a name="National-Institute-of-Standards-and-Technology"></a>National Institute of Standards and Technology
-Federal organization tasked with assisting in the development of [voting system](#voting-system) [standards](#standard). NIST develops and maintains standards for a wide array of technologies. NIST scientists assist the EAC in developing testable standards for [voting](#vote) systems.
+Federal organization tasked with assisting in the development of [voting system](#voting-system) [standards](#standard). NIST develops and maintains standards for a wide array of technologies. NIST scientists assist the EAC in developing testable standards for [voting systems](#voting-system).
 
 \#vvsg
 ## <a name="non-party-specific-contest"></a>non-party-specific contest
@@ -1115,7 +1115,7 @@ Document created prior to testing that outlines the scope and nature of testing,
 
 \#vvsg
 ## <a name="test-suite"></a>test suite
-Implementation of a set of operational [tests](#test) for a particular object (such as a specific [voting system](#voting-system)) or class of objects (such as all [voting](#vote) systems that can interpret the language in which the [test](#test) data are expressed).
+Implementation of a set of operational [tests](#test) for a particular object (such as a specific [voting system](#voting-system)) or class of objects (such as all [voting systems](#voting-system) that can interpret the language in which the [test](#test) data are expressed).
 
 \#vvsg
 ## <a name="third-party-logic"></a>third-party logic
@@ -1251,7 +1251,7 @@ The executable code and associated configuration files needed for the proper ope
 
 \#vvsg
 ## <a name="Voting-System-Test-Lab"></a>Voting System Test Lab
-Privately owned testing laboratories that [test](#test) [voting](#vote) systems (and other [election systems](#election-system)) for [conformance](#conformance) to the Voluntary [Voting System](#voting-system) Guidelines (VVSG) or to other requirements, including individual state requirements. VSTLs are periodically reviewed for conformance to National Voluntary Laboratory Accreditation Program (NVLAP) administered by the National Institute for Standards and Technology (NIST).
+Privately owned testing laboratories that [test](#test) [voting systems](#voting-system) (and other [election systems](#election-system)) for [conformance](#conformance) to the Voluntary [Voting System](#voting-system) Guidelines (VVSG) or to other requirements, including individual state requirements. VSTLs are periodically reviewed for conformance to National Voluntary Laboratory Accreditation Program (NVLAP) administered by the National Institute for Standards and Technology (NIST).
 
 \#vvsg
 ## <a name="white-box-testing"></a>white box testing
