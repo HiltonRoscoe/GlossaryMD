@@ -2,7 +2,11 @@
 
 [Example VVSG Glossary Output](vvsg_living_glossary.md)
 
-Instructions for Generation
+## Instructions for Running
+
+This report expects one report variable (passed in from MagicDraw Report Wizard), called `NERMappingFile`. This should be a file system path to the `NER` entity list.
+
+##Instructions for Generation
 
 - Export Word version of VVSG Glossary into Google Docs
 - Export from Google Docs into XLSX
@@ -10,4 +14,5 @@ Instructions for Generation
 - Replace fancy quotes “ ” ->  " ",  ’ -> '
 - Export as CSV
 - Import CSV into MagicDraw
+- Export `NER` entity list (use `regexner.txt` template).
 - Export package as MarkDown report
