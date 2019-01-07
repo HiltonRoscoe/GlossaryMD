@@ -1,6 +1,6 @@
 #import('text', 'com.nomagic.reportwizard.tools.TextTool')
 #import('hrsort', 'com.hiltonroscoe.mdreportext.Sorter')
-#import('hrlang', 'com.hiltonroscoe.mdreportext.NLPLanguage')
+#import('hrlang', 'com.hiltonroscoe.mdreportext.Language')
 #set($packages = $array.createArray())
 #set($void = $array.addCollection($packages, $Package))
 #set($void = $array.addCollection($packages, $SmartPackage))
@@ -18,21 +18,8 @@
 #set ($void = $enumerationList.add($element))
 #end
 #end
-<!-- 
-MagicDraw Template for Markdown Glossary
-(c) 2019 Hilton Roscoe LLC
--->
-# $package.name Glossary
 #foreach ($class in $sorter.sort($classList))
-#set ($skipWords = $report.getStereotypeProperty($class, "glossaryEntry", "ignoreEntries"))
-#[[##]]# <a name="$class.name.replaceAll("\s+","-")"></a>$class.name
-$hrlang.runNLP($class.documentation, $class.name, "$NERMappingFile", $skipWords)
-#set ($communities = $report.getStereotypeProperty($class, "glossaryEntry", "communities"))
-#if($communities)
-
-#foreach ($community in $communities)
-\#[[#]]#$community
-#end
-#end
+#set ($wordsInTerm = $hrlang.getWords($class.name))
+( (#foreach ($lemma in $hrlang.getLemmas($class.name))[ {lemma:/\Q$lemma\E/} || {word:/\Q$wordsInTerm.get($foreach.index)\E/} ]#end) )	GLOSSARY_TERM	$class.name	$class.name.length()
 #end 
 #end
