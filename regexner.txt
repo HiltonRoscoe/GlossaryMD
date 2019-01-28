@@ -18,8 +18,15 @@
 #set ($void = $enumerationList.add($element))
 #end
 #end
+#macro( tokenregex $name)#set ($wordsInTerm = $hrlang.getWords($name))
+( (#foreach ($lemma in $hrlang.getLemmas($name))[ {lemma:/\Q$lemma\E/} || {word:/\Q$wordsInTerm.get($foreach.index)\E/} ]#end) )#end
+#end
 #foreach ($class in $sorter.sort($classList))
-#set ($wordsInTerm = $hrlang.getWords($class.name))
-( (#foreach ($lemma in $hrlang.getLemmas($class.name))[ {lemma:/\Q$lemma\E/} || {word:/\Q$wordsInTerm.get($foreach.index)\E/} ]#end) )	GLOSSARY_TERM	$class.name	$class.name.length()
-#end 
+#set ($synonyms = $report.getStereotypeProperty($class, "glossaryEntry", "synonyms"))
+#foreach($synonym in $synonyms)
+#if ($synonym != "")
+#tokenregex($synonym)	GLOSSARY_TERM	$class.name	$synonym.length()
+#end
+#end
+#tokenregex($class.name)	GLOSSARY_TERM	$class.name	$class.name.length()
 #end
