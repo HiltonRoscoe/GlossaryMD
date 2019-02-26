@@ -8,7 +8,7 @@ MagicDraw Template for Markdown Glossary
 
 
 
-Synonyms: mail ballot, postal ballot
+`mail ballot` `postal ballot`
 ## <a name="absentee-voting"></a>absentee voting
 Voting that can occur unsupervised at a location chosen by the [voter](#voter) either before or on [election day](#election-day).
 
