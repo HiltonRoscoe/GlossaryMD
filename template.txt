@@ -31,9 +31,9 @@ $hrlang.runNLP($class.documentation, $class.name, "$NERMappingFile", $skipWords)
 #set ($communities = $report.getStereotypeProperty($class, "glossaryEntry", "communities"))
 #if($communities)
 
-#foreach ($community in $communities)
-\#[[#]]#$community
-#end
+###foreach ($community in $communities)
+##\#[[#]]#$community
+###end
 #end
 #set ($synonyms = $report.getStereotypeProperty($class, "glossaryEntry", "synonyms"))
 #if($list.size($synonyms) > 0 && !$list.get($synonyms,0).equals(""))
