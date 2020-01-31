@@ -17,3 +17,11 @@ This report expects one report variable (passed in from MagicDraw Report Wizard)
 - Import CSV into MagicDraw
 - Export `NER` entity list (use `regexner.txt` template).
 - Export package as MarkDown report
+
+> NER may have issues with terms containing slashes. Remove such terms from NER list.
+
+## Instructions for MD conversion
+
+```bash
+pandoc vvsg_living_glossary.md -o vvsg.docx --reference-doc styles.docx
+```
