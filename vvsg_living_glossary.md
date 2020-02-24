@@ -205,6 +205,13 @@ An optical, machine-readable representation of data as a sequence of bars and sp
  Barcode readers are used to scan codes on a variety of [election](#election) materials including [ballots](#ballot), driver's licenses, voter ID cards, voter information packets, envelopes, and other election documents.
 
 
+## <a name="baseline-voting"></a>baseline voting
+A [vote variation](#vote-variation) in which the [candidate](#candidate) with the most [votes](#vote) wins. In single-seat [contests](#contest), the [voter](#voter) may only select one [contest option](#contest-option).  In [multi-seat contests](#multi-seat-contest) for n [seats](#seat), the voter may select up to n contest options. 
+
+
+
+Synonyms: `Plurality voting`
+
 ## <a name="batch"></a>batch
 A collection of [paper ballots](#paper-ballot) gathered as a group for tabulation or for auditing.
 
@@ -261,7 +268,7 @@ The process of compiling, reviewing, and validating [election](#election) return
 Synonyms: `voted ballot`
 
 ## <a name="cast-vote-record"></a>cast vote record
-Archival tabulatable [record](#record) of a set or subset of [contest selections](#contest-selection) produced by a single [voter](#voter) as interpreted by the [voting system](#voting-system).
+Archival tabulatable [record](#record) of a set of [contest selections](#contest-selection) produced by a single [voter](#voter) as interpreted by the [voting system](#voting-system).
 
 
 
@@ -672,7 +679,7 @@ Describes units of geopolitical geography so that they can be associated with [c
 Synonyms: `GpUnit`
 
 ## <a name="hand-count"></a>hand-count
-[Counting ballot](#counted-ballot) sheets and/or selections on [ballot](#ballot) sheets by human examination.
+Counting ballot sheets and/or selections on [ballot](#ballot) sheets by human examination.
 
 
 ## <a name="hardware"></a>hardware
@@ -949,11 +956,6 @@ Synonyms: `PII`
 
 Synonyms: `PCA`
 
-## <a name="plurality-voting"></a>plurality voting
-A [vote variation](#vote-variation) in which the [candidate](#candidate) with the most [votes](#vote) wins. In single-seat [contests](#contest), the [voter](#voter) may only select one [contest option](#contest-option) candidate.  In [multi-seat contests](#multi-seat-contest) for n [seats](#seat), the voter may select up to n contest options candidates. 
-
-
-
 ## <a name="political-party"></a>political party
 An association of individuals under whose name a [candidate](#candidate) may appear on a [ballot](#ballot).
 
@@ -975,7 +977,7 @@ Synonyms: `poll`, `polling station`
 ## <a name="post-election-tabulation-audit"></a>post-election tabulation audit
 A post-election [audit](#audit) that involves hand-counting a sample of [votes](#vote) on paper [records](#record), then comparing those [counts](#tabulate) to the corresponding vote totals originally [reported](#report):
  - as a check on the accuracy of [election](#election) results, and
- - to detect discrepancies using accurate hand counts of the paper records as the [benchmark](#benchmark).
+ - to detect discrepancies using accurate [hand-counts](#hand-count) of the paper records as the [benchmark](#benchmark).
 
 
 
@@ -1052,7 +1054,7 @@ An abbreviated logic and accuracy [test](#test) of voting equipment, pre-announc
 An optical, 2-D machine-readable representation of data that conform to the accepted [standard](#standard).
 
 
-Synonyms: `QR Code`
+Synonyms: `Quick Response code`
 
 ## <a name="ranked-choice-voting"></a>ranked choice voting
 A [vote variation](#vote-variation): 
@@ -1123,7 +1125,7 @@ The process of identifying the risks to system security and determining the prob
 
 
 ## <a name="risk-limiting-tabulation-audit"></a>risk-limiting tabulation audit
-[Post-election tabulation audit](#post-election-tabulation-audit) procedure for checking a sample of [ballots](#ballot) (or [voter verifiable](#voter-verifiable) [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the [reported](#report) outcome if the reported outcome is wrong (that is, if a full hand count would reveal an outcome different from the reported outcome).
+[Post-election tabulation audit](#post-election-tabulation-audit) procedure for checking a sample of [ballots](#ballot) (or [voter verifiable](#voter-verifiable) [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the [reported](#report) outcome if the reported outcome is wrong (that is, if a full [hand-count](#hand-count) would reveal an outcome different from the reported outcome).
 
 
 Synonyms: `RLA`
@@ -1333,7 +1335,7 @@ A physical location where [voters](#voter) from multiple [precincts](#precinct) 
 
 
 ## <a name="vote-variation"></a>vote variation
-Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), [cumulative voting](#cumulative-voting), [N-of-M voting](#N-of-M-voting), baseline voting, proportional voting, [score voting](#score-voting), [ranked choice voting](#ranked-choice-voting) and super [majority voting](#majority-voting).
+Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), [baseline voting](#baseline-voting), [cumulative voting](#cumulative-voting), [N-of-M voting](#N-of-M-voting), proportional voting, [ranked choice voting](#ranked-choice-voting), [score voting](#score-voting) and super [majority voting](#majority-voting).
 
 
 ## <a name="vote-by-mail"></a>vote-by-mail
