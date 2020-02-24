@@ -13,7 +13,7 @@ This report expects one report variable (passed in from MagicDraw Report Wizard)
 - Export from Google Docs into XLSX
 - Replace Bullets with Dashses
 - Replace fancy quotes “ ” ->  " ",  ’ -> '
-- Export as CSV
+- Export as CSV (UTF-8)
 - Import CSV into MagicDraw
 - Export `NER` entity list (use `regexner.txt` template).
 - Export package as MarkDown report
@@ -23,5 +23,5 @@ This report expects one report variable (passed in from MagicDraw Report Wizard)
 ## Instructions for MD conversion
 
 ```bash
-pandoc vvsg_living_glossary.md -o vvsg.docx --reference-doc styles.docx
+pandoc vvsg_living_glossary.md -o vvsg.docx --reference-doc styles.docx -f markdown_github
 ```
