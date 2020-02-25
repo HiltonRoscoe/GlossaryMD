@@ -81,8 +81,10 @@ An [expected mark](#expected-mark) made according to the [ballot instructions](#
 
 
 ## <a name="approval-voting"></a>approval voting
-A [vote variation](#vote-variation) used for [elections](#election) in which each [voter](#voter) may "approve" of (that is, select) any number of [candidates](#candidate). Typically, the winner is the most-approved candidate.
+A [vote variation](#vote-variation) used for [elections](#election) in which each [voter](#voter) may "approve" of (that is, select) any number of [candidates](#candidate).  Typically, the winner(s) is the most-approved candidate(s).
 
+
+Synonyms: `equal-and-even cumulative voting`, `proportional voting`
 
 ## <a name="archival-media"></a>archival media
 Storage media that is designed to preserve content for an extended period of time with minimal data corruption or loss.
@@ -93,7 +95,7 @@ A [device](#device) that improves or maintains the capabilities of people with d
 
 
 ## <a name="asymmetric-cryptography"></a>asymmetric cryptography
-[Encryption](#encryption) system that uses a public and [private key](#private-key) pair for cryptographic operation. The private key is generally stored in a user's [digital certificate](#digital-certificate) and used typically to encrypt or digitally sign data. The [public key](#public-key) is used typically to decrypt the data or verify its [digital signatures](#digital-signature). The keys could be used interchangeably as needed, that is, a public key can be used to encrypt data and the private key can be used to decrypt the data.
+[Encryption](#encryption) system that uses a public and [private key](#private-key) pair for cryptographic operation. The private key is generally stored in a user's [digital certificate](#digital-certificate) and used typically to decrypt or digitally sign data. The [public key](#public-key) is used typically to encrypt the data or verify its [digital signatures](#digital-signature). The keys could be used interchangeably as needed, that is, a public key can be used to decrypt data and the private key can be used to encrypt the data.
 
 
 ## <a name="audio-format"></a>audio format
@@ -169,7 +171,7 @@ Synonyms: `ballot issue`, `ballot proposition`, `ballot question`, `referendum`
 A [contest option](#contest-option) that specifies a response to a [ballot measure](#ballot-measure).
 
 
-## <a name="ballot-on-demandÂ®"></a>ballot on demand®
+## <a name="ballot-on-demand®"></a>ballot on demand®
 A process that produces a [paper ballot](#paper-ballot) of the required [ballot style](#ballot-style) that meets a specific [voter](#voter)'s needs. The use of this process requires:
  - a system with a printer that can create a tabulatable paper ballot; and
  - a [device](#device) driving the printer that has all the data needed to print each ballot style and allows selection of the needed style.
@@ -186,6 +188,10 @@ Process of generating [ballots](#ballot) for presentation to [voters](#voter), f
 The process of varying the order of listed [candidates](#candidate) within a [contest](#contest). This allows each candidate to appear first on the list of candidates an approximately equal number of times across different [ballot styles](#ballot-style) or [election districts](#election-district).
 
 
+## <a name="ballot-secrecy"></a>ballot secrecy
+A goal of [voting systems](#voting-system) to ensure that no [contest selections](#contest-selection) can be associated with a [voter](#voter).
+
+
 ## <a name="ballot-style"></a>ballot style
 [Ballot data](#ballot-data) that has been put into [contest](#contest) order for a particular [precinct](#precinct) and considers a particular set of [voter](#voter) situations. Voter situations include party affiliation (for [closed primaries](#closed-primary)), and age of the voter (in states that permit 17-year-olds to [vote](#vote) in [primary elections](#primary-election)), among others.
 
@@ -198,6 +204,13 @@ An optical, machine-readable representation of data as a sequence of bars and sp
 [Device](#device) used to scan [barcodes](#barcode) and convert the encoded information into a usable format.
  Barcode readers are used to scan codes on a variety of [election](#election) materials including [ballots](#ballot), driver's licenses, voter ID cards, voter information packets, envelopes, and other election documents.
 
+
+## <a name="baseline-voting"></a>baseline voting
+A [vote variation](#vote-variation) in which the [candidate](#candidate) with the most [votes](#vote) wins. In single-seat [contests](#contest), the [voter](#voter) may only select one [contest option](#contest-option).  In [multi-seat contests](#multi-seat-contest) for n [seats](#seat), the voter may select up to n contest options. 
+
+
+
+Synonyms: `Plurality voting`
 
 ## <a name="batch"></a>batch
 A collection of [paper ballots](#paper-ballot) gathered as a group for tabulation or for auditing.
@@ -255,7 +268,9 @@ The process of compiling, reviewing, and validating [election](#election) return
 Synonyms: `voted ballot`
 
 ## <a name="cast-vote-record"></a>cast vote record
-Archival tabulatable [record](#record) of all [votes](#vote) produced by a single [voter](#voter) from a given [ballot](#ballot).
+Archival tabulatable [record](#record) of a set of [contest selections](#contest-selection) produced by a single [voter](#voter) as interpreted by the [voting system](#voting-system).
+
+
 
 
 Synonyms: `CVR`
@@ -374,7 +389,7 @@ A [voting system](#voting-system) that supports both [voter](#voter) verificatio
 Synonyms: `E2E`
 
 ## <a name="cryptographic-hash"></a>cryptographic hash
-A cryptographic algorithm that computes a numerical value based on a data file or electronic message. The numerical value is used to represent that file or message, and depends on the entire contents of the file or message. A hash function can be considered to be a fingerprint of the file or message. Colloquially known as a hash, hash function, or digital fingerprint. Hashes provide integrity protection.
+A cryptographic algorithm that computes a numerical hash value based on a data file or electronic message. It should be infeasible in practice to find two distinct data files or messages that will result in the same numerical hash value. The numerical value can be considered to be a fingerprint of the file or message. Colloquially known as a hash, hash function, or digital fingerprint. Hashes provide integrity protection.
 
 
 ## <a name="cryptographic-key"></a>cryptographic key
@@ -386,7 +401,7 @@ Discipline that embodies the principles, means, and methods for transforming dat
 
 
 ## <a name="cumulative-voting"></a>cumulative voting
-A [vote variation](#vote-variation) used in [multi-seat contests](#multi-seat-contest) where a [voter](#voter) is permitted to distribute allowed selections to 1 or more [candidates](#candidate) in whole [vote](#vote) increments.
+A [vote variation](#vote-variation) used in n-seat [contests](#contest) where a [voter](#voter) is permitted to distribute n [votes](#vote) to one or more [contest options](#contest-option). Two major variations are used in American [elections](#election), one of which may result in fractional votes.
 
 
 ## <a name="cybersecurity"></a>cybersecurity
@@ -426,10 +441,6 @@ A [vote-capture device](#vote-capture-device) that allows:
 
 
 Synonyms: `DRE`
-
-## <a name="dynamic-password"></a>dynamic password
-A password that changes at a defined interval or event.
-
 
 ## <a name="early-voting"></a>early voting
 Voting that occurs prior to [election day](#election-day) under the supervision of [election workers](#election-worker).
@@ -666,6 +677,10 @@ Describes units of geopolitical geography so that they can be associated with [c
 
 
 Synonyms: `GpUnit`
+
+## <a name="hand-count"></a>hand-count
+Counting ballot sheets and/or selections on [ballot](#ballot) sheets by human examination.
+
 
 ## <a name="hardware"></a>hardware
 The physical, tangible, mechanical, or electromechanical [components](#component) of a system.
@@ -941,10 +956,6 @@ Synonyms: `PII`
 
 Synonyms: `PCA`
 
-## <a name="plurality-voting"></a>plurality voting
-A [vote variation](#vote-variation) in which the [candidate](#candidate) with the most [votes](#vote) wins, without necessarily receiving a majority of votes.
-
-
 ## <a name="political-party"></a>political party
 An association of individuals under whose name a [candidate](#candidate) may appear on a [ballot](#ballot).
 
@@ -966,7 +977,7 @@ Synonyms: `poll`, `polling station`
 ## <a name="post-election-tabulation-audit"></a>post-election tabulation audit
 A post-election [audit](#audit) that involves hand-counting a sample of [votes](#vote) on paper [records](#record), then comparing those [counts](#tabulate) to the corresponding vote totals originally [reported](#report):
  - as a check on the accuracy of [election](#election) results, and
- - to detect discrepancies using accurate hand counts of the paper records as the [benchmark](#benchmark).
+ - to detect discrepancies using accurate [hand-counts](#hand-count) of the paper records as the [benchmark](#benchmark).
 
 
 
@@ -1004,7 +1015,7 @@ This does not preclude the ability of a voter to request assistance under state 
 
 
 ## <a name="private-key"></a>private key
-The secret part of an asymmetric key pair that is typically used to verify, digitally sign, or decrypt data.
+The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data.
 
 
 ## <a name="product-standard"></a>product standard
@@ -1039,15 +1050,11 @@ Synonyms: `PKI`
 An abbreviated logic and accuracy [test](#test) of voting equipment, pre-announced in public media and open to public attendance, usually in [conformance](#conformance) with specific [election](#election) calendar timing.
 
 
-## <a name="quick-response-code"></a>quick response code
-A 2-D, trademarked bar code. Some [voting systems](#voting-system) will encode the [voter](#voter)'s selections in a QR Code that can be read on a scanner in the [precinct](#precinct) and converted to a printed [ballot](#ballot).
+## <a name="QR-Code®"></a>QR Code®
+An optical, 2-D machine-readable representation of data that conform to the accepted [standard](#standard).
 
 
-Synonyms: `QR Code`
-
-## <a name="range-voting"></a>range voting
-A [vote variation](#vote-variation) for single-seat [contests](#contest), in which [voters](#voter) give each [candidate](#candidate) a score, the scores are added (or averaged), and the candidate with the highest total is elected.
-
+Synonyms: `Quick Response code`
 
 ## <a name="ranked-choice-voting"></a>ranked choice voting
 A [vote variation](#vote-variation): 
@@ -1110,7 +1117,7 @@ Ability to obtain the same [test](#test) results by using the same [test method]
 
 
 ## <a name="reviewed-ballot"></a>reviewed ballot
-[Ballot](#ballot) that has been reviewed (either electronically or by the [voter](#voter)) before it is [cast](#cast), to determine what [contest selections](#contest-selection) it contains.
+[Contest selections](#contest-selection) and if applicable unselected [contest options](#contest-option) that have been checked by the [voter](#voter) before casting, to determine if they match [voter intent](#voter-intent).
 
 
 ## <a name="risk-assessment"></a>risk assessment
@@ -1118,7 +1125,7 @@ The process of identifying the risks to system security and determining the prob
 
 
 ## <a name="risk-limiting-tabulation-audit"></a>risk-limiting tabulation audit
-[Post-election tabulation audit](#post-election-tabulation-audit) procedure for checking a sample of [ballots](#ballot) (or [voter verifiable](#voter-verifiable) [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the [reported](#report) outcome if the reported outcome is wrong (that is, if a full hand count would reveal an outcome different from the reported outcome).
+[Post-election tabulation audit](#post-election-tabulation-audit) procedure for checking a sample of [ballots](#ballot) (or [voter verifiable](#voter-verifiable) [records](#record)) that is guaranteed to have a large, pre-specified chance of correcting the [reported](#report) outcome if the reported outcome is wrong (that is, if a full [hand-count](#hand-count) would reveal an outcome different from the reported outcome).
 
 
 Synonyms: `RLA`
@@ -1126,6 +1133,12 @@ Synonyms: `RLA`
 ## <a name="runoff-election"></a>runoff election
 [Election](#election) to select a winner following a [primary election](#primary-election) or a [general election](#general-election), in which no [candidate](#candidate) in the [contest](#contest) received the required minimum percentage of the [votes](#vote) [cast](#cast). The two candidates receiving the most votes for the contest in question proceed to a runoff election.
 
+
+## <a name="score-voting"></a>score voting
+A [vote variation](#vote-variation) for single-seat [contests](#contest), in which [voters](#voter) give each [candidate](#candidate) a score, the scores are added (or averaged), and the candidate with the highest total is elected.
+
+
+Synonyms: `range voting`
 
 ## <a name="seat"></a>seat
 An [elected office](#elected-office) position that a single officeholder may occupy for a term of [office](#office).
@@ -1274,7 +1287,7 @@ A widely used unit of local government in the United States, subordinate to a co
 Synonyms: `civil township`
 
 ## <a name="undervote"></a>undervote
-Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of undervotes is equal to the number of [votes](#vote) lost, for example, if no selection is made in a vote for two contest the number of votes lost is two.
+Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of undervotes is equal to the number of [votes](#vote) lost, for example, if one selection is made in a vote for 3 out of 5 [candidates](#candidate) contest, the number of undervotes or votes lost is two.
 
 
 Synonyms: `under-vote`
@@ -1321,12 +1334,8 @@ Indication of support for a particular [contest option](#contest-option).
 A physical location where [voters](#voter) from multiple [precincts](#precinct) may [cast](#cast) their [ballots](#ballot).
 
 
-## <a name="vote-for-N-of-M"></a>vote for N-of-M
-A [multi-seat contest](#multi-seat-contest) in which [voters](#voter) are allowed to [vote](#vote) for a specified number ("N") of [candidates](#candidate).
-
-
 ## <a name="vote-variation"></a>vote variation
-Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), borda count, [cumulative voting](#cumulative-voting), [n-of-m voting](#N-of-M-voting), [plurality voting](#plurality-voting), [proportional voting](#proportional-voting), [range voting](#range-voting), [ranked choice voting](#ranked-choice-voting) and super [majority voting](#majority-voting). 
+Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), [baseline voting](#baseline-voting), [cumulative voting](#cumulative-voting), [N-of-M voting](#N-of-M-voting), proportional voting, [ranked choice voting](#ranked-choice-voting), [score voting](#score-voting) and super [majority voting](#majority-voting).
 
 
 ## <a name="vote-by-mail"></a>vote-by-mail
@@ -1355,8 +1364,8 @@ A [standard](#standard) for counting ballots that aims to ensure that [ballots](
 A [voting system](#voting-system) feature that provides the [voter](#voter) an opportunity to verify that their [contest selections](#contest-selection) are being [recorded](#record) correctly before the [ballot](#ballot) is [cast](#cast).
 
 
-## <a name="voter-verified-paper-audit-trail"></a>voter verified paper audit trail
-A paper document that the [voter](#voter) can review before officially [casting](#cast) their [ballot](#ballot).
+## <a name="voter-verifiable-paper-audit-trail"></a>voter verifiable paper audit trail
+In [DRE](#direct-recording-electronic-voting-machine) systems, a paper document containing evidence of a [voter](#voter)'s [contest selections](#contest-selection) that they can check before officially [casting](#cast) the [ballot](#ballot).
 
 
 Synonyms: `VVPAT`
