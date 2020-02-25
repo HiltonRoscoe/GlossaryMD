@@ -11,7 +11,7 @@ This report expects one report variable (passed in from MagicDraw Report Wizard)
 - Install [MDReportExtensions](https://github.com/HiltonRoscoe/MDReportExtensions)
 - Export Word version of VVSG Glossary into Google Docs
 - Export from Google Docs into XLSX
-- Replace Bullets with Dashses
+- Replace Bullets · with Dashses -
 - Replace fancy quotes “ ” ->  " ",  ’ -> '
 - Export as CSV (UTF-8)
 - Import CSV into MagicDraw

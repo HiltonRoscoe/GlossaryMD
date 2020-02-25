@@ -1287,7 +1287,7 @@ A widely used unit of local government in the United States, subordinate to a co
 Synonyms: `civil township`
 
 ## <a name="undervote"></a>undervote
-Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of undervotes is equal to the number of [votes](#vote) lost, for example, if no selection is made in a vote for two contest the number of votes lost is two.
+Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of undervotes is equal to the number of [votes](#vote) lost, for example, if one selection is made in a vote for 3 out of 5 [candidates](#candidate) contest, the number of undervotes or votes lost is two.
 
 
 Synonyms: `under-vote`
