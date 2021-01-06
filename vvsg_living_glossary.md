@@ -2,6 +2,10 @@
 MagicDraw Template for Markdown Glossary
 (c) 2019 Hilton Roscoe LLC
 -->
+
+> [!IMPORTANT]
+> This glossary is outdated and retained for historial purposes only. Please use the [NIST Voting Glossary](https://pages.nist.gov/ElectionGlossary/).
+
 # VVSGTerm Glossary
 ## <a name="absentee-ballot"></a>absentee ballot
 [Ballot](#ballot) used for [absentee voting](#absentee-voting).
