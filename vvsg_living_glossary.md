@@ -2,6 +2,10 @@
 MagicDraw Template for Markdown Glossary
 (c) 2019 Hilton Roscoe LLC
 -->
+
+> [!IMPORTANT]
+> This glossary is outdated and retained for historial purposes only. Please use the [NIST Voting Glossary](https://pages.nist.gov/ElectionGlossary/).
+
 # VVSGTerm Glossary
 ## <a name="absentee-ballot"></a>absentee ballot
 [Ballot](#ballot) used for [absentee voting](#absentee-voting).
@@ -81,7 +85,7 @@ An [expected mark](#expected-mark) made according to the [ballot instructions](#
 
 
 ## <a name="approval-voting"></a>approval voting
-A [vote variation](#vote-variation) used for [elections](#election) in which each [voter](#voter) may "approve" of (that is, select) any number of [candidates](#candidate).  Typically, the winner(s) is the most-approved candidate(s).
+A [vote variation](#vote-variation) used for [elections](#election) in which each [voter](#voter) may "approve" of (that is, select) any number of [candidates](#candidate). Typically, the winner(s) is the most-approved candidate(s).
 
 
 Synonyms: `equal-and-even cumulative voting`, `proportional voting`
@@ -141,7 +145,7 @@ The concrete presentation of the contents of a [ballot](#ballot) appropriate to 
 
 
 ## <a name="ballot-image"></a>ballot image
-Electronically produced [record](#record) of all [votes](#vote) [cast](#cast) by a single [voter](#voter). A ballot image might be a transient logical representation of the votes or an archival record (a [cast vote record](#cast-vote-record)).
+Archival  digital image (e.g. JPEG, PDF, etc. ) captured from one or more sides of a [paper ballot](#paper-ballot) [cast](#cast) by an individual [voter](#voter).
 
 
 ## <a name="ballot-instructions"></a>ballot instructions
@@ -1113,7 +1117,11 @@ Ability to obtain the same [test](#test) results by using the same [test method]
 
 
 ## <a name="residual-vote"></a>residual vote
-[Vote](#vote) that could not be allocated to a specific [contest](#contest) due to an [undervote](#undervote) or [overvote](#overvote).
+[Vote](#vote) that could not be allocated to a specific [contest option](#contest-option) due to an [undervote](#undervote) or [overvote](#overvote).
+
+
+## <a name="resiliance"></a>resiliance
+The ability to recover gracefully from error conditions and unexpected circumstances. For example, manually marked paper preserves evidence of exceptions that can advise both [adjudication](#adjudication) and [audit](#audit) to achieve better interpretation of original [voter intent](#voter-intent).
 
 
 ## <a name="reviewed-ballot"></a>reviewed ballot
@@ -1437,7 +1445,7 @@ A network that connects computers across metropolitan, regional, and national bo
 Synonyms: `WAN`
 
 ## <a name="wireless"></a>wireless
-Network connectivity using radio waves instead of wire connections.
+Connectivity using electro-magnetic waves instead of wire connections.
 
 
 ## <a name="write-in-option"></a>write-in option
